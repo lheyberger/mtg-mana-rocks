@@ -1,0 +1,268 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, main, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+i, em, blockquote {
+  font-style: italic;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img {
+  background: transparent;
+  border: 0;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+  height: inherit;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: black;
+}
+
+time {
+  margin: 0 0.4em;
+  font-style: italic;
+  font-size: 0.95em;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 100%;
+  color: #353A3E;
+  background-color: white;
+  text-rendering: optimizeLegibility;
+}
+
+body > header {
+  height: 100px;
+  background-color: #353A3E;
+}
+body > header a {
+  color: white;
+}
+body > header a:hover {
+  color: #b3b9be;
+}
+body > header h1 {
+  float: left;
+  margin: 40px 0 0 10%;
+  font-size: 1.3em;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+body > header nav {
+  float: right;
+  margin: 40px 10% 0 0;
+}
+body > header li {
+  display: inline;
+  margin-left: 20px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+body > main {
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+body > footer {
+  background-color: #F1F0EE;
+  text-align: center;
+  padding: 40px 0;
+}
+
+article:not(:only-of-type) {
+  margin: 3em 0;
+}
+article:not(:only-of-type) > header > h1 {
+  margin: 1px;
+  font-size: 2.7em;
+  line-height: 150%;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+article:not(:only-of-type) > header > h2 {
+  font-size: 1.2em;
+  font-weight: lighter;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+article:not(:only-of-type) > footer {
+  margin-top: 1.5em;
+  padding: 0.5em;
+  line-height: 150%;
+  background-color: #F1F0EE;
+  overflow: hidden;
+}
+article:not(:only-of-type) > footer a {
+  color: #FC6B35;
+}
+article:not(:only-of-type) > footer a:hover {
+  color: #BA3B0D;
+}
+article:not(:only-of-type) > footer p:nth-child(1) {
+  float: left;
+  clear: both;
+}
+article:not(:only-of-type) > footer p:nth-child(2) {
+  float: right;
+}
+article:not(:only-of-type) > footer p:nth-child(2) a {
+  font-size: 0.95em;
+  background-color: #FC6B35;
+  color: #FCF9F4;
+  padding: 0.1em 0.4em 0.1em;
+  border-radius: 1px;
+}
+
+article:only-of-type a {
+  color: #FC6B35;
+}
+article:only-of-type a:hover {
+  color: #BA3B0D;
+}
+article:only-of-type header {
+  margin: 5em 0;
+  text-align: center;
+}
+article:only-of-type header > h1 {
+  line-height: 1.5em;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+article:only-of-type header > h2 {
+  line-height: 1.5em;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: lighter;
+}
+article:only-of-type > h1 {
+  font-size: 1.9em;
+  font-weight: bold;
+  margin: 2em 0 1em;
+}
+article:only-of-type > h2 {
+  font-size: 1.6em;
+  font-weight: normal;
+  margin: 2em 0 1em;
+}
+article:only-of-type > h3 {
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 2em 0 1em;
+}
+article:only-of-type > p, article:only-of-type > blockquote {
+  line-height: 1.5em;
+}
+article:only-of-type > p {
+  margin: 0.75em 0;
+}
+article:only-of-type > blockquote {
+  margin: 1em;
+}
+article:only-of-type > ul {
+  list-style: disc;
+  margin: 0 0 0.75em 2em;
+}
+article:only-of-type > ul li {
+  line-height: 1.5em;
+}
+article:only-of-type > pre {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-size: 0.83em;
+  line-height: 1.3em;
+  padding: 1em;
+  margin: 1.5em 0.5em;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+  background-color: #353A3E;
+  color: white;
+  white-space: pre-wrap;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
+article:only-of-type > footer {
+  line-height: 2em;
+  margin: 3em 0;
+}
+article:only-of-type > footer h1 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+article:only-of-type > footer li {
+  line-height: 1.5em;
+}
+article:only-of-type > footer p:nth-child(2) a {
+  font-size: 0.95em;
+  background-color: #FC6B35;
+  color: #FCF9F4;
+  padding: 0.1em 0.4em 0.1em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
+
+dl {
+  margin-bottom: 3em;
+}
+dl a {
+  color: #FC6B35;
+}
+dl a:hover {
+  color: #BA3B0D;
+}
+dl dt {
+  font-size: 1.55em;
+  font-weight: bold;
+  margin: 2em 0 1em;
+}
+dl dd {
+  line-height: 1.5em;
+}
+
+/*# sourceMappingURL=style.css.map */

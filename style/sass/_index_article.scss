@@ -1,0 +1,52 @@
+
+article:not(:only-of-type) {
+
+	margin: 3em 0;
+
+	> header {
+
+		> h1 {
+		    margin:1px;
+		    font-size: 2.7em;
+		    line-height: 150%;
+		    font-weight: bolder;
+		    letter-spacing: 1px;
+		}
+
+		> h2 {
+		    font-size: 1.2em;
+		    font-weight: lighter;
+		    font-style: italic;
+		    letter-spacing: 1px;
+		}
+	}
+
+	> footer {
+
+	    margin-top: 1.5em;
+	    padding: .5em;
+	    line-height: 150%;
+	    background-color: $light-background;
+	    overflow: hidden;
+
+	    @include link-color($accent-color, $accent-darker-color);
+
+		p:nth-child(1) {
+		    float: left;
+		    clear: both;
+		}
+
+		p:nth-child(2) {
+		    float: right;
+		}
+
+		p:nth-child(2) a {
+		    font-size: .95em;
+		    background-color: $accent-color;
+		    color: $accent-contrast-color;
+		    padding: .1em .4em .1em;
+		    border-radius: 1px;
+		}
+	}
+
+}

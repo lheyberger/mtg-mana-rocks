@@ -1,0 +1,18 @@
+
+@include link-style();
+@include link-color(inherit, $dark-link-over);
+
+time {
+	margin: 0 .4em;
+    font-style: italic;
+    font-size: .95em;
+}
+
+html {
+    font-family: $font;
+    font-size: 1em;
+    line-height: 100%;
+    color: $dark-text-color;
+    background-color: $background-color;
+    text-rendering: optimizeLegibility;
+}

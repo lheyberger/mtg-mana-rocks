@@ -1,0 +1,92 @@
+
+article:only-of-type {
+
+	@include link-color($accent-color, $accent-darker-color);
+
+	header {
+		margin: 5em 0;
+		text-align: center;
+
+		> h1 {
+			line-height: 1.5em;
+			font-size: 2.2em;
+			font-weight: bold;
+		}
+
+		> h2 {
+			line-height: 1.5em;
+			font-size: 1.5em;
+			font-style: italic;
+			font-weight: lighter;
+		}
+	}
+
+	> h1 {
+		@include title(1.90em, bold, 2em 0 1em);
+	}
+
+	> h2 {
+		@include title(1.60em, normal, 2em 0 1em);
+	}
+
+	> h3 {
+		@include title(1.40em, normal, 2em 0 1em);
+	}
+
+	> p, > blockquote {
+		line-height: 1.5em;
+	}
+
+	> p {
+		margin: 0.75em 0;
+	}
+
+	> blockquote {
+		margin: 1em;
+	}
+
+	> ul {
+		list-style: disc;
+		margin: 0 0 0.75em 2em;
+
+		li {
+			line-height: 1.5em;
+		}
+	}
+
+	> pre {
+		font-family: $code-font;
+		font-size: .83em;
+		line-height: 1.3em;
+		padding: 1em;
+		margin: 1.5em .5em;
+		box-shadow: 0 0 .5em rgba(0, 0, 0, 0.5);
+		background-color: $dark-background;
+		color: $light-text-color;
+		white-space: pre-wrap;
+
+		@include border-radius(1px);
+	}
+
+	> footer {
+		line-height: 2em;
+		margin: 3em 0;
+
+		h1 {
+			@include title(1.30em, bold, 0.5em 0);
+		}
+
+		li {
+			line-height: 1.5em;
+		}
+
+		p:nth-child(2) a {
+		    font-size: .95em;
+		    background-color: $accent-color;
+		    color: $accent-contrast-color;
+		    padding: .1em .4em .1em;
+
+		    @include border-radius(1px);
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<article>
+	<header>
+		<h1>{{ title }}</h1>
+		<h2>{{ subtitle }}</h2>
+	</header>
+	{{ article }}
+	<footer>
+		<p>
+			<a href="{{ permalink }}">Permalink</a>
+			<time datetime="{{ date.strftime('%Y-%m-%d') }}">{{ date.strftime('%B %d, %Y') }}</time>
+			{% if edited %}<time datetime="{{ edited.strftime('%Y-%m-%d') }}">(last edit on {{ edited.strftime('%B %d, %Y') }})</time>{% endif %}
+		</p>
+		{% if tags %}
+		<p>
+			{% for tag in tags %}<a href="archives.html#{{ tag }}">{{ tag }}</a>{% if not loop.last %} {% endif %}{% endfor %}
+		</p>
+		{% endif %}
+		{% if previous_posts %}
+		<nav>
+			<h1>Previous post{% if previous_posts|length > 1%}s{% endif %}</h1>
+			<ul>
+			{% for post in previous_posts %}
+				<li><a href="{{ post.tag }}.html">{{ post.title }}</a></li>
+			{% endfor %}
+			</ul>
+		</nav>
+		{% endif %}
+	</footer>
+</article>
+{% endblock %}

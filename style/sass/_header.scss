@@ -1,0 +1,30 @@
+
+body {
+
+	> header {
+
+	    height: 100px;
+    	background-color: $dark-background;
+        @include link-color($light-text-color, $light-link-over);
+
+        h1 {
+            float: left;
+            margin: 40px 0 0 10%;
+            font-size: 1.3em;
+            font-weight: bolder;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            float: right;
+            margin: 40px 10% 0 0;
+        }
+
+        li {
+            display: inline;
+            margin-left: 20px;
+            font-weight: lighter;
+            text-transform: uppercase;
+        }
+	}
+}

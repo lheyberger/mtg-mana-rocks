@@ -1,0 +1,17 @@
+
+dl {
+
+	margin-bottom: 3em;
+
+	@include link-color($accent-color, $accent-darker-color);
+
+	dt {
+		font-size: 1.55em;
+		font-weight: bold;
+		margin: 2em 0 1em;
+	}
+
+	dd {
+		line-height: 1.5em;
+	}
+}

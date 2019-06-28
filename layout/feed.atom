@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>{{ header }}</title>
+    <link href="{{ baseref }}" rel="self" />
+    <id>urn:uuid:{{ uuid }}</id>
+    <updated>{{ date.strftime("%Y-%m-%dT%H:%M:%SZ") }}</updated>
+
+    {% for entry in entries %}
+    <entry>
+        <title>{{ entry.title }}</title>
+        <link href="{{ entry.url }}" />
+        <id>urn:uuid:{{ entry.uuid }}</id>
+        <updated>{{ entry.date.strftime("%Y-%m-%dT%H:%M:%SZ") }}</updated>
+        {% if entry.author %}<author><name>{{ entry.author }}</name></author>{% endif %}
+        <content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				{{ entry.article }}
+			</div>
+		</content>
+    </entry>
+    {% endfor %}
+
+</feed>

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+{% if posts or tag_list %}
+<dl>
+	{% if posts %}
+	<dt>{{ title }}</dt>
+	{% for post in posts %}
+	<dd><a href="{{ post.tag }}.html">{{ post.title }}</a> <time datetime="{{ post.date.strftime('%Y-%m-%d') }}">{{ post.date.strftime('%B %d, %Y') }}</time></dd>
+	{% endfor %}
+	{% endif %}
+
+	{% if tag_list %}
+	{% for tag in tag_list %}
+	<dt id="{{ tag[0] }}">{{ tag[0]|capitalize }}</dt>
+	{% for post in tag[1] %}
+	<dd><a href="{{ post.tag }}.html">{{ post.title }}</a> <time datetime="{{ post.date.strftime('%Y-%m-%d') }}">{{ post.date.strftime('%B %d, %Y') }}</time></dd>
+	{% endfor %}
+	{% endfor %}
+	{% endif %}
+</dl>
+{% endif %}
+{% endblock %}
