@@ -63,7 +63,7 @@ def build_post(global_vars, post, previous_posts, is_first = False):
 
 def build_index(global_vars, posts):
 	context = {
-		"title" : "Ludovic Heyberger",
+		"title" : "MTG Mana Rocks",
 		"posts" : posts,
 	}
 	context.update(global_vars)

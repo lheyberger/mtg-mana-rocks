@@ -1,47 +1,19 @@
 ---
-title: Top 10 Izzet lands
-subtitle: Lorem ipsum
-date: 02/06/2019
+title: Best Izzet lands
+subtitle: Lands you should include in your Izzet Commander deck, sorted by priority
+date: 07/07/2019
 author: Ludovic Heyberger
-tags: [ magic, edh ]
+tags: [ draft, magic, edh, izzet, land ]
 ---
-
-# 10
-
-because
-
-# 9
-
-like that
-
-# 8
-
-like that
-
-# 7
-
-like that
-
-# 6
-
-like that
-
-# 5
-
-like that
-
-# 4
-
-like that
 
 # 3. Steam Vents
 
-![Steam Vents](https://img.scryfall.com/cards/normal/en/gpt/164.jpg)
+![Steam Vents](https://img.scryfall.com/cards/normal/en/exp/12.jpg)
 
 # 2. Volcanic Island
 
-![Volcanic Island](https://img.scryfall.com/cards/normal/front/0/3/0324641d-af55-4c53-b4dc-c8262e967da5.jpg)
+![Volcanic Island](https://img.scryfall.com/cards/normal/front/b/1/b12e5430-0e80-47dd-80ac-85728b656a24.jpg)
 
 # 1. Scalding Tarn
 
-![Scalding Tarn](https://img.scryfall.com/cards/normal/en/zen/223.jpg)
+![Scalding Tarn](https://img.scryfall.com/cards/normal/en/exp/22.jpg)
