@@ -1,9 +1,9 @@
 ---
 title: Best Boros lands
 subtitle: Lands you should include in your Boros Commander deck, sorted by priority
-date: 01/07/2019
+date: 04/07/2019
 author: Ludovic Heyberger
-tags: [ draft, magic, edh, boros, land ]
+tags: [ magic, edh, boros, land ]
 ---
 
 Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of [fixing][Mana Fixing] their [manabase][Manabase] than other combinations.
