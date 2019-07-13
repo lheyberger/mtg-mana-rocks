@@ -20,19 +20,19 @@ Check-land that will provide you the right mana the turn it enters the battlefie
 
 # 7. Clifftop Retreat
 
-![Clifftop Retreat](https://img.scryfall.com/cards/normal/en/dom/239.jpg)
+![Clifftop Retreat](https://img.scryfall.com/cards/normal/front/e/0/e0b52b9c-7278-46b4-9f3c-3a7fc0c7e526.jpg)
 
 Check-land that will provide you the right mana from your second turn until the end of the game.
 
 # 6. Rugged Prairie
 
-![Rugged Prairie](https://img.scryfall.com/cards/normal/en/a25/247.jpg)
+![Rugged Prairie](https://img.scryfall.com/cards/normal/front/4/4/4441514d-d8e0-480f-ab82-b0064dfa7ac0.jpg)
 
 Instant speed fixing for both of your colors if you happen to already have one of those two colors. Can provide you colorless mana in the meantime.
 
 # 5. Battlefield Forge
 
-![Battlefield Forge](https://img.scryfall.com/cards/normal/en/ori/244.jpg)
+![Battlefield Forge](https://img.scryfall.com/cards/normal/front/0/3/034c5944-aad3-4bf2-b79d-8da61ab1bd52.jpg)
 
 Instant speed fixing for your [Boros][Boros] Commander with a 1 life drawback each time. It won't hurt you if you don't need the colored mana.
 
@@ -44,7 +44,7 @@ Instant speed fixing for your [Boros][Boros] Commander with a 1 life drawback ea
 
 # 3. Sacred Foundry
 
-![Sacred Foundry](https://img.scryfall.com/cards/normal/en/exp/14.jpg)
+![Sacred Foundry](https://img.scryfall.com/cards/normal/front/3/3/33c519df-c6b1-4e32-92bc-8a67ae5cbaab.jpg)
 
 Almost as good as it's older brother, [Plateau][Plateau].
 
@@ -62,7 +62,7 @@ I only ranked [Arid Mesa][Arid Mesa] higher because of the low life point drawba
 
 # 1. Arid Mesa
 
-![Arid Mesa](https://img.scryfall.com/cards/normal/en/exp/24.jpg)
+![Arid Mesa](https://img.scryfall.com/cards/normal/front/2/1/21a739c8-d7ca-4204-9398-c47fd1d68447.jpg)
 
 This is the perfect land for your [Boros][Boros] Commander deck.
 
