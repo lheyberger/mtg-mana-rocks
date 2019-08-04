@@ -123,11 +123,9 @@ def main(filter_drafts = True):
 	sorted_list = list(sorted_list)
 
 	# build
-	build_index(global_vars, sorted_list[:10])
-
 	for i, post in enumerate(sorted_list):
 		build_post(global_vars, post, sorted_list[i+1:i+6], i == 0)
-
+	build_index(global_vars, sorted_list[:10])
 	build_archives(global_vars, sorted_list, tags)
 	build_atom(global_vars, sorted_list)
 
