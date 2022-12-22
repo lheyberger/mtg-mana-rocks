@@ -1,5 +1,5 @@
 ---
-title: Upgrading your manabase - Fetch Lands
+title: Fetch Lands
 subtitle: Quick guide on how to improve your EDH manabase
 date: 01/08/2019
 author: Ludovic Heyberger
@@ -14,27 +14,34 @@ The first candidates you should consider when selecting your lands are [fetches]
 
 [Fetch lands][Fetch Lands] were first introduced in [Mirage][Mirage] as an [allied color][Allied Color] cycle. Each of them enters the battlefield tapped and can be sacrificed to search for a land card with at least one of two basic land types of an [allied color][Allied Color] pair.
 
-The ones we are really interested in were first introduced in [Onslaught][Onslaught], again in [allied colors][Allied Color] only, but the full cycle was completed in [Zendikar] with the addition of the [enemy colors][Enemy Color].
+The ones we are really interested in were first introduced in [Onslaught][Onslaught], again in [allied colors][Allied Color] only, but the full cycle was completed in [Zendikar][Zendikar] with the addition of the [enemy colors][Enemy Color].
 
-Each of these lands enter the battlefield untapped. They allow their controller to sacrifice them and pay one life to search their library for a land card with at least one of two basic land types of an [enemy color][Enemy Color] pair.
+Each of these lands enter the battlefield untapped. Paying one life and sacrificing them allows their controller to search their library for a land card with at least one of two basic land types.
 
 # Why should I consider them?
 
 [Fetch lands][Fetch Lands] are the perfect lands for your [multicolor][Multicolor] Commander decks:
-- It's any [basic land][Basic Land] when you need it.
-- If your budget allows it, it can be any [dual land][Dual Land] at instant speed.
-- If you don't have a relevant play to follow up, it can be any [shock land][Shock Land] that enters the battlefield tapped.
-- They enable some recursion shenanigans with cards like [Brought Back][Brought Back] or [Sun Titan][Sun Titan].
-- You can double your activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
-Cracking a [fetch lands][Fetch Lands] and [shuffling][Shuffle] your library is also what makes it so good. If for whatever reason, you're not happy with cards you just put back on top of your library with a [Scroll Rack][Scroll Rack] or [Brainstorm][Brainstorm], you can get rid of them by cracking your [fetch lands][Fetch Lands].
+- They can be any [basic land][Basic Land] when you need it.
+- If your budget allows it, they can be any [dual land][Dual Land] at instant speed.
+- If you don't have a relevant play to follow up, they can be any [shock land][Shock Land] that enters the battlefield tapped.
+- They enable some recursion shenanigans with cards like [Brought Back][Brought Back] or [Sun Titan][Sun Titan].
+- You can double the effect of their activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
+
+Cracking [fetch lands][Fetch Lands] and [shuffling][Shuffle] your library is also what makes them so good. If for whatever reason, you're not happy with cards you just put back on top of your library with a [Scroll Rack][Scroll Rack] or [Brainstorm][Brainstorm], you can get rid of them by fetching and [shuffling][Shuffle] your library.
 
 In addition of being very good in almost all commander decks, [fetch lands][Fetch Lands] integrates very well in a few archetypes:
+
 - Landfall, with commanders like [Tatyova, Benthic Druid][Tatyova Benthic Druid]
 - Land Matters, with commanders like [Omnath, Locus of Rage][Omnath Locus of Rage], [Omnath, Locus of the Roil][Omnath Locus of the Roil] and [Lord Windgrace][Lord Windgrace]
 - Recursion, with commanders like [Muldrotha, the Gravetide][Muldrotha the Gravetide]
 
 # Alternatives
+
+## Slow Fetches
+
+
+## Panoramas
 
 
 # References

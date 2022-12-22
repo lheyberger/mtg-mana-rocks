@@ -105,8 +105,22 @@ body > header li {
 }
 
 body > main {
-  max-width: 45em;
   margin: 0 auto;
+}
+@media only screen and (max-width: 500px) {
+  body > main {
+    max-width: 90%;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 999px) {
+  body > main {
+    max-width: 70%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  body > main {
+    max-width: 50%;
+  }
 }
 
 body > footer {

@@ -1,8 +1,18 @@
 
 body {
-
 	> main {
-		max-width: 45em;
 		margin: 0 auto;
+
+		@include small {
+			max-width: 90%;
+		}
+
+		@include medium {
+			max-width: 70%;
+		}
+
+		@include wide {
+			max-width: 50%;
+		}
 	}
 }
