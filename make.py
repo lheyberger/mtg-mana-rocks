@@ -130,7 +130,7 @@ def main(filter_drafts = True):
 	build_atom(global_vars, sorted_list)
 
 	# deploy
-	subprocess.call([ "sass", "./style/sass/style.scss", "./style/style.css" ])
+	# subprocess.call([ "sass", "./style/sass/style.scss", "./style/style.css" ])
 	for target in _todeploy:
 		deploy(target, _outputdir)
 
