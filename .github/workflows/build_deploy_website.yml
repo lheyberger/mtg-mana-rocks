@@ -28,9 +28,7 @@ jobs:
           python-version: 3.11
 
       - name: Install sass
-        uses: ConorMacBride/install-package@v1.1.0
-        with:
-          brew: sass/sass/sass
+        run: brew install sass/sass/sass
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
