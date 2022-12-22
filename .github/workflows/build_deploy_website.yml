@@ -26,9 +26,9 @@ jobs:
         uses: actions/setup-python@v4.4.0
         with:
           python-version: 3.11
-
-      - name: Install sass
-        run: brew install sass/sass/sass
+          
+      - uses: bahmutov/npm-install@v1
+      - run: npm install -g sass
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
