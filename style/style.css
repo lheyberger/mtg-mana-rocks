@@ -194,6 +194,10 @@ article:only-of-type header > h2 {
   font-style: italic;
   font-weight: lighter;
 }
+article:only-of-type header > img {
+  margin-top: 2em;
+  martin-bottom: 0em;
+}
 article:only-of-type > h1 {
   font-size: 1.9em;
   font-weight: bold;

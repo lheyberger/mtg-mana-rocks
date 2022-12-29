@@ -10,7 +10,7 @@
 		<p>
 			<a href="{{ post.permalink }}">Permalink</a>
 			<time datetime="{{ post.date.strftime('%Y-%m-%d') }}">{{ post.date.strftime('%B %d, %Y') }}</time>
-			{% if edited %}<time datetime="{{ post.edited.strftime('%Y-%m-%d') }}">(last edit on {{ post.edited.strftime('%B %d, %Y') }})</time>{% endif %}
+			{% if post.edited %}<time datetime="{{ post.edited.strftime('%Y-%m-%d') }}">(last edit on {{ post.edited.strftime('%B %d, %Y') }})</time>{% endif %}
 		</p>
 		{% if post.tags %}
 		<p>

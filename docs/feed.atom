@@ -4,72 +4,725 @@
     <title></title>
     <link href="http://mtgmana.rocks/" rel="self" />
     <id>urn:uuid:0c9d723f-5560-40cc-a4c9-4d30df31e293</id>
-    <updated>2022-12-22T23:22:14Z</updated>
+    <updated>2022-12-29T14:01:09Z</updated>
 
     
     <entry>
         <title>Best Boros lands</title>
-        <link href="http://mtgmana.rocks/boros_lands.html" />
-        <id>urn:uuid:2f57e9a9-f44a-387f-9c69-17eba1c54abe</id>
-        <updated>2019-07-04T00:00:00Z</updated>
+        <link href="http://mtgmana.rocks/best_boros_lands.html" />
+        <id>urn:uuid:461564c9-1bbe-3e98-bff6-13c45c206825</id>
+        <updated>2023-01-10T00:00:00Z</updated>
         <author><name>Ludovic Heyberger</name></author>
         <content type="xhtml">
 			<div xmlns="http://www.w3.org/1999/xhtml">
 				<p>Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of <a href="https://mtg.gamepedia.com/Mana_fixing">fixing</a> their <a href="https://mtg.gamepedia.com/Mana_base">manabase</a> than other combinations.</p>
-<p>On top of that, <a href="https://mtg.gamepedia.com/Boros_Legion">Boros</a> is not exactly known to be good at <a href="https://mtg.gamepedia.com/Mana_fixing">mana fixing</a> and <a href="https://mtg.gamepedia.com/Drawing_a_card">drawing</a>.</p>
-<p>So it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
-<h1>8. Inspiring Vantage</h1>
-<p><img alt="Inspiring Vantage" src="https://img.scryfall.com/cards/normal/front/1/6/160ac412-005f-48ca-a204-10207307c6c2.jpg" /></p>
-<p>Check-land that will provide you the right mana the turn it enters the battlefield provided that you play it in your first three turns. After that, it's a bit slower. Pretty nice in low <a href="https://mtg.gamepedia.com/Mana#Mana_costs">CMC</a> Commander decks or otherwise in high <a href="https://mtg.gamepedia.com/Mana#Mana_costs">CMC</a> Commander deck. I wouldn't play it if most of my spells or big turns are around 4 <a href="https://mtg.gamepedia.com/Mana#Mana_costs">CMC</a>.</p>
-<h1>7. Clifftop Retreat</h1>
-<p><img alt="Clifftop Retreat" src="https://img.scryfall.com/cards/normal/front/e/0/e0b52b9c-7278-46b4-9f3c-3a7fc0c7e526.jpg" /></p>
-<p>Check-land that will provide you the right mana from your second turn until the end of the game.</p>
-<h1>6. Rugged Prairie</h1>
-<p><img alt="Rugged Prairie" src="https://img.scryfall.com/cards/normal/front/4/4/4441514d-d8e0-480f-ab82-b0064dfa7ac0.jpg" /></p>
-<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Can provide you colorless mana in the meantime.</p>
-<h1>5. Battlefield Forge</h1>
-<p><img alt="Battlefield Forge" src="https://img.scryfall.com/cards/normal/front/0/3/034c5944-aad3-4bf2-b79d-8da61ab1bd52.jpg" /></p>
-<p>Instant speed fixing for your <a href="https://mtg.gamepedia.com/Boros_Legion">Boros</a> Commander with a 1 life drawback each time. It won't hurt you if you don't need the colored mana.</p>
-<h1>4. Sunbaked Canyon</h1>
-<p><img alt="Sunbaked Canyon" src="https://img.scryfall.com/cards/normal/front/c/3/c36820fa-ee86-4206-9a0d-737a67cf5208.jpg" /></p>
-<p>Instant speed fixing for your <a href="https://mtg.gamepedia.com/Boros_Legion">Boros</a> Commander with a 1 life drawback each time. You can replace itself during longer games.</p>
+<p>That's why it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
+<h1>10. Furycalm Snarl</h1>
+<p><img alt="Furycalm Snarl" src="assets/furycalm_snarl.jpg" /></p>
+<p>More restrictive than Clifftop Retreat because it requires you to have an actual <a href="https://scryfall.com/search?q=!mountain">Mountain</a> or a <a href="https://scryfall.com/search?q=!plains">Plains</a> in your starting hand.</p>
+<h1>9. Clifftop Retreat</h1>
+<p><img alt="Clifftop Retreat" src="assets/clifftop_retreat.jpg" /></p>
+<p>More flexible than Furycalm Snarl because you can keep a hand with a fetch land in addition to Clifftop Retreat.</p>
+<h1>8. Needleverge Pathway // Pillarverge Pathway</h1>
+<p><img alt="Needleverge Pathway // Pillarverge Pathway" src="assets/needleverge_pathway_pillarverge_pathway.jpg" /></p>
+<p>Doesn't really fix your mana but at least you get to choose your color.</p>
+<h1>7. Rugged Prairie</h1>
+<p><img alt="Rugged Prairie" src="assets/rugged_prairie.jpg" /></p>
+<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Provides you colorless mana in the meantime.</p>
+<h1>6. Battlefield Forge</h1>
+<p><img alt="Battlefield Forge" src="assets/battlefield_forge.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Won't hurt you if you don't need the colored mana.</p>
+<h1>5. Sunbaked Canyon</h1>
+<p><img alt="Sunbaked Canyon" src="assets/sunbaked_canyon.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Can replace itself if you are desperate to draw a card.</p>
+<h1>4. Spectator Seating</h1>
+<p><img alt="Spectator Seating" src="assets/spectator_seating.jpg" /></p>
+<p>No drawback in a Commander game other than not being fetchable.</p>
 <h1>3. Sacred Foundry</h1>
-<p><img alt="Sacred Foundry" src="https://img.scryfall.com/cards/normal/front/3/3/33c519df-c6b1-4e32-92bc-8a67ae5cbaab.jpg" /></p>
+<p><img alt="Sacred Foundry" src="assets/sacred_foundry.jpg" /></p>
 <p>Almost as good as it's older brother, <a href="https://scryfall.com/search?q=!plateau">Plateau</a>.</p>
-<p>Prefered target when cracking an <a href="https://scryfall.com/search?q=!arid-mesa">Arid Mesa</a> if you have no relevant play to follow.</p>
-<p>That's also why you should always wait until the last time to crack your fetch land: if you need to play something at instant speed like a <a href="https://scryfall.com/search?q=!swords-to-plowshares">Swords to Plowshares</a>, just go fetch a <a href="https://scryfall.com/search?q=!plateau">Plateau</a>, otherwise, at the end of your opponent's turn, go fetch a <a href="https://scryfall.com/search?q=!sacred-foundry">Sacred Foundry</a> and let it enter the battlefield tapped.</p>
+<p>Prefered target when cracking an <a href="https://scryfall.com/search?q=!arid-mesa">Arid Mesa</a> if you have no relevant play to follow with.</p>
 <h1>2. Plateau</h1>
-<p><img alt="Plateau" src="https://img.scryfall.com/cards/normal/front/c/6/c6ae9cff-8646-4069-8761-df734e067beb.jpg" /></p>
+<p><img alt="Plateau" src="assets/plateau.jpg" /></p>
 <p>The king of dual lands: Perfect, no drawback, no tempo loss.</p>
-<p>I only ranked <a href="https://scryfall.com/search?q=!arid-mesa">Arid Mesa</a> higher because of the low life point drawback to crack it and the added flexibility to shuffle the library of be recurred if needed.</p>
+<p>I only ranked <a href="https://scryfall.com/search?q=!arid-mesa">Arid Mesa</a> higher because of the amazing flexibility.</p>
 <h1>1. Arid Mesa</h1>
-<p><img alt="Arid Mesa" src="https://img.scryfall.com/cards/normal/front/2/1/21a739c8-d7ca-4204-9398-c47fd1d68447.jpg" /></p>
+<p><img alt="Arid Mesa" src="assets/arid_mesa.jpg" /></p>
 <p>This is the perfect land for your <a href="https://mtg.gamepedia.com/Boros_Legion">Boros</a> Commander deck.</p>
 <p>It's a <a href="https://scryfall.com/search?q=!mountain">Mountain</a> when you need it.
 It's a <a href="https://scryfall.com/search?q=!plains">Plains</a> when you need it.
 If your budget allows it, it can be a <a href="https://scryfall.com/search?q=!plateau">Plateau</a> at instant speed.
-If you don't have a relevant play to follow up, it can be a <a href="https://scryfall.com/search?q=!sacred-foundry">Sacred Foundry</a> that enters the battlefield tapped.</p>
-<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!arid-mesa">Arid Mesa</a>.</p>
-<p>Fetch lands also enable some recursion shenanigans with cards like <a href="https://scryfall.com/search?q=!brought-back">Brought Back</a> or <a href="https://scryfall.com/search?q=!sun-titan">Sun Titan</a>.</p>
+If you have nothing else to play, it can be a <a href="https://scryfall.com/search?q=!sacred-foundry">Sacred Foundry</a> that enters the battlefield tapped.</p>
+<p>You should always wait until the last minute to crack your fetch land: if you need to play <a href="https://scryfall.com/search?q=!swords-to-plowshares">Swords to Plowshares</a> at instant speed or a <a href="https://scryfall.com/search?q=!pyroblast">Pyroblast</a> at the end of your opponent's turn, just go fetch a <a href="https://scryfall.com/search?q=!plateau">Plateau</a>, otherwise, at the end of your opponent's turn, go fetch a <a href="https://scryfall.com/search?q=!sacred-foundry">Sacred Foundry</a> and let it enter the battlefield tapped.</p>
+<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or the cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!arid-mesa">Arid Mesa</a>.</p>
+<p>Fetch lands are also good targets for recursion spells or abilities like <a href="https://scryfall.com/search?q=!brought-back">Brought Back</a>, <a href="https://scryfall.com/search?q=!sevinnes-reclamation">Sevinne's Reclamation</a> or <a href="https://scryfall.com/search?q=!sun-titan">Sun Titan</a>.</p>
 <p>You can also double your fetch land activations with cards like <a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a>.</p>
 <h1>References</h1>
 <ul>
 <li><a href="https://scryfall.com/search?q=!arid-mesa">Aris Mesa</a></li>
 <li><a href="https://mtg.gamepedia.com/Boros_Legion">Boros</a></li>
 <li><a href="https://scryfall.com/search?q=!brought-back">Brought Back</a></li>
-<li><a href="https://mtg.gamepedia.com/Mana#Mana_costs">Converted Mana Cost</a></li>
-<li><a href="https://mtg.gamepedia.com/Drawing_a_card">Drawing</a></li>
 <li><a href="https://mtg.gamepedia.com/Mana_base">Manabase</a></li>
 <li><a href="https://mtg.gamepedia.com/Mana_fixing">Mana Fixing</a></li>
 <li><a href="https://scryfall.com/search?q=!mountain">Mountain</a></li>
 <li><a href="https://scryfall.com/search?q=!plains">Plains</a></li>
 <li><a href="https://scryfall.com/search?q=!plateau">Plateau</a></li>
+<li><a href="https://scryfall.com/search?q=!pyroblast">Pyroblast</a></li>
 <li><a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a></li>
 <li><a href="https://scryfall.com/search?q=!sacred-foundry">Sacred Foundry</a></li>
 <li><a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a></li>
 <li><a href="https://mtg.gamepedia.com/Scry">Scry</a></li>
+<li><a href="https://scryfall.com/search?q=!sevinnes-reclamation">Sevinne's Reclamation</a></li>
 <li><a href="https://scryfall.com/search?q=!sun-titan">Sun Titan</a></li>
 <li><a href="https://scryfall.com/search?q=!swords-to-plowshares">Swords to Plowshares</a></li>
+</ul>
+			</div>
+		</content>
+    </entry>
+    
+    <entry>
+        <title>Best Izzet lands</title>
+        <link href="http://mtgmana.rocks/best_izzet_lands.html" />
+        <id>urn:uuid:5fc160c9-3216-3b96-8361-2bfaba36b532</id>
+        <updated>2023-01-09T00:00:00Z</updated>
+        <author><name>Ludovic Heyberger</name></author>
+        <content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of <a href="https://mtg.gamepedia.com/Mana_fixing">fixing</a> their <a href="https://mtg.gamepedia.com/Mana_base">manabase</a> than other combinations.</p>
+<p>That's why it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
+<h1>10. Frostboil Snarl</h1>
+<p><img alt="Frostboil Snarl" src="assets/frostboil_snarl.jpg" /></p>
+<p>More restrictive than Sulfur Falls because it requires you to have an actual <a href="https://scryfall.com/search?q=!island">Island</a> or a <a href="https://scryfall.com/search?q=!mountain">Mountain</a> in your starting hand.</p>
+<h1>9. Sulfur Falls</h1>
+<p><img alt="Sulfur Falls" src="assets/sulfur_falls.jpg" /></p>
+<p>More flexible than Frostboil Snarl because you can keep a hand with a fetch land in addition to Sulfur Falls.</p>
+<h1>8. Riverglide Pathway // Lavaglide Pathway</h1>
+<p><img alt="Riverglide Pathway // Lavaglide Pathway" src="assets/riverglide_pathway_lavaglide_pathway.jpg" /></p>
+<p>Doesn't really fix your mana but at least you get to choose your color.</p>
+<h1>7. Cascade Bluffs</h1>
+<p><img alt="Cascade Bluffs" src="assets/cascade_bluffs.jpg" /></p>
+<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Provides you colorless mana in the meantime.</p>
+<h1>6. Shivan Reef</h1>
+<p><img alt="Shivan Reef" src="assets/shivan_reef.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Won't hurt you if you don't need the colored mana.</p>
+<h1>5. Fiery Islet</h1>
+<p><img alt="Fiery Islet" src="assets/fiery_islet.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Can replace itself if you are desperate to draw a card.</p>
+<h1>4. Training Center</h1>
+<p><img alt="Training Center" src="assets/training_center.jpg" /></p>
+<p>No drawback in a Commander game other than not being fetchable.</p>
+<h1>3. Steam Vents</h1>
+<p><img alt="Steam Vents" src="assets/steam_vents.jpg" /></p>
+<p>Almost as good as it's older brother, <a href="https://scryfall.com/search?q=!volcanic-island">Volcanic Island</a>.</p>
+<p>Prefered target when cracking a <a href="https://scryfall.com/search?q=!scalding-tarn">Scalding Tarn</a> if you have no relevant play to follow with.</p>
+<h1>2. Volcanic Island</h1>
+<p><img alt="Volcanic Island" src="assets/volcanic_island.jpg" /></p>
+<p>The king of dual lands: Perfect, no drawback, no tempo loss.</p>
+<p>I only ranked <a href="https://scryfall.com/search?q=!scalding-tarn">Scalding Tarn</a> higher because of the amazing flexibility.</p>
+<h1>1. Scalding Tarn</h1>
+<p><img alt="Scalding Tarn" src="assets/scalding_tarn.jpg" /></p>
+<p>This is the perfect land for your <a href="https://mtg.fandom.com/wiki/Izzet">Izzet</a> Commander deck.</p>
+<p>It's an <a href="https://scryfall.com/search?q=!island">Island</a> when you need it.
+It's a <a href="https://scryfall.com/search?q=!mountain">Mountain</a> when you need it.
+If your budget allows it, it can be a <a href="https://scryfall.com/search?q=!volcanic-island">Volcanic Island</a> at instant speed.
+If you have nothing else to play, it can be a <a href="https://scryfall.com/search?q=!steam-vents">Steam Vents</a> that enters the battlefield tapped.</p>
+<p>You should always wait until the last minute to crack your fetch land: if you need to play <a href="https://scryfall.com/search?q=!dispel">Dispel</a> at instant speed or a <a href="https://scryfall.com/search?q=!pyroblast">Pyroblast</a> at the end of your opponent's turn, just go fetch a <a href="https://scryfall.com/search?q=!volcanic-island">Volcanic Island</a>, otherwise, at the end of your opponent's turn, go fetch a <a href="https://scryfall.com/search?q=!steam-vents">Steam Vents</a> and let it enter the battlefield tapped.</p>
+<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or the cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a> or <a href="https://scryfall.com/search?q=!brainstorm">Brainstorm</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!scalding-tarn">Scalding Tarn</a>.</p>
+<p>You can also double your fetch land activations with cards like <a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a>.</p>
+<h1>References</h1>
+<ul>
+<li><a href="https://scryfall.com/search?q=!brainstorm">Brainstorm</a></li>
+<li><a href="https://scryfall.com/search?q=!dispel">Dispel</a></li>
+<li><a href="https://scryfall.com/search?q=!island">Island</a></li>
+<li><a href="https://mtg.fandom.com/wiki/Izzet">Izzet</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_fixing">Mana Fixing</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_base">Manabase</a></li>
+<li><a href="https://scryfall.com/search?q=!mountain">Mountain</a></li>
+<li><a href="https://scryfall.com/search?q=!pyroblast">Pyroblast</a></li>
+<li><a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a></li>
+<li><a href="https://scryfall.com/search?q=!scalding-tarn">Scalding Tarn</a></li>
+<li><a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a></li>
+<li><a href="https://mtg.gamepedia.com/Scry">Scry</a></li>
+<li><a href="https://scryfall.com/search?q=!steam-vents">Steam Vents</a></li>
+<li><a href="https://scryfall.com/search?q=!volcanic-island">Volcanic Island</a></li>
+</ul>
+			</div>
+		</content>
+    </entry>
+    
+    <entry>
+        <title>Best Simic lands</title>
+        <link href="http://mtgmana.rocks/best_simic_lands.html" />
+        <id>urn:uuid:f927c140-b228-3372-8da3-e3bfd7af36eb</id>
+        <updated>2023-01-08T00:00:00Z</updated>
+        <author><name>Ludovic Heyberger</name></author>
+        <content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of <a href="https://mtg.gamepedia.com/Mana_fixing">fixing</a> their <a href="https://mtg.gamepedia.com/Mana_base">manabase</a> than other combinations.</p>
+<p>That's why it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
+<h1>10. Vineglimmer Snarl</h1>
+<p><img alt="Vineglimmer Snarl" src="assets/vineglimmer_snarl.jpg" /></p>
+<p>More restrictive than Hinterland Harbor because it requires you to have an actual <a href="https://scryfall.com/search?q=!forest">Forest</a> or an <a href="https://scryfall.com/search?q=!island">Island</a> in your starting hand.</p>
+<h1>9. Hinterland Harbor</h1>
+<p><img alt="Hinterland Harbor" src="assets/hinterland_harbor.jpg" /></p>
+<p>You cannot keep your hand if this is your only land, other than that, you are good to go.</p>
+<h1>8. Barkchannel Pathway // Tidechannel Pathway</h1>
+<p><img alt="Barkchannel Pathway // Tidechannel Pathway" src="assets/barkchannel_pathway_tidechannel_pathway.jpg" /></p>
+<p>Doesn't really fix your mana but at least you get to choose your color.</p>
+<h1>7. Flooded Grove</h1>
+<p><img alt="Flooded Grove" src="assets/flooded_grove.jpg" /></p>
+<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Provides you colorless mana in the meantime.</p>
+<h1>6. Yavimaya Coast</h1>
+<p><img alt="Yavimaya Coast" src="assets/yavimaya_coast.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Won't hurt you if you don't need the colored mana.</p>
+<h1>5. Waterlogged Grove</h1>
+<p><img alt="Waterlogged Grove" src="assets/waterlogged_grove.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Can replace itself if you are desperate to draw a card.</p>
+<h1>4. Rejuvenating Springs</h1>
+<p><img alt="Rejuvenating Springs" src="assets/rejuvenating_springs.jpg" /></p>
+<p>No drawback in a Commander game other than not being fetchable.</p>
+<h1>3. Breeding Pool</h1>
+<p><img alt="Breeding Pool" src="assets/breeding_pool.jpg" /></p>
+<p>Almost as good as it's older brother, <a href="https://scryfall.com/search?q=!tropical-island">Tropical Island</a>.</p>
+<p>Prefered target when cracking an <a href="https://scryfall.com/search?q=!misty_rainforest">Misty Rainforest</a> if you have no relevant play to follow with.</p>
+<h1>2. Tropical Island</h1>
+<p><img alt="Tropical Island" src="assets/tropical_island.jpg" /></p>
+<p>The king of dual lands: Perfect, no drawback, no tempo loss.</p>
+<p>I only ranked <a href="https://scryfall.com/search?q=!misty_rainforest">Misty Rainforest</a> higher because of the amazing flexibility.</p>
+<h1>1. Misty Rainforest</h1>
+<p><img alt="Misty Rainforest" src="assets/misty_rainforest.jpg" /></p>
+<p>This is the perfect land for your <a href="https://mtg.fandom.com/wiki/Simic">Simic</a> Commander deck.</p>
+<p>It's a <a href="https://scryfall.com/search?q=!forest">Forest</a> when you need it.
+It's an <a href="https://scryfall.com/search?q=!island">Island</a> when you need it.
+If your budget allows it, it can be a <a href="https://scryfall.com/search?q=!tropical-island">Tropical Island</a> at instant speed.
+If you have nothing else to play, it can be a <a href="https://scryfall.com/search?q=!breeding-pool">Breeding Pool</a> that enters the battlefield tapped.</p>
+<p>You should always wait until the last minute to crack your fetch land: if you need to play <a href="https://scryfall.com/search?q=!worldly_tutor">Worldly Tutor</a> or <a href="https://scryfall.com/search?q=!dispel">Dispel</a> at instant speed, just go fetch a <a href="https://scryfall.com/search?q=!tropical-island">Tropical Island</a>, otherwise, at the end of your opponent's turn, go fetch a <a href="https://scryfall.com/search?q=!breeding-pool">Breeding Pool</a> and let it enter the battlefield tapped.</p>
+<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or the cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a> or <a href="https://scryfall.com/search?q=!brainstorm">Brainstorm</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!misty_rainforest">Misty Rainforest</a>.</p>
+<p>Fetch lands are also good targets for recursion spells or abilities like <a href="https://scryfall.com/search?q=!crucible-of-worlds">Crucible of Worlds</a>.</p>
+<p>You can also double your fetch land activations with cards like <a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a>.</p>
+<h1>References</h1>
+<ul>
+<li><a href="https://scryfall.com/search?q=!brainstorm">Brainstorm</a></li>
+<li><a href="https://scryfall.com/search?q=!breeding-pool">Breeding Pool</a></li>
+<li><a href="https://scryfall.com/search?q=!crucible-of-worlds">Crucible of Worlds</a></li>
+<li><a href="https://scryfall.com/search?q=!dispel">Dispel</a></li>
+<li><a href="https://scryfall.com/search?q=!forest">Forest</a></li>
+<li><a href="https://scryfall.com/search?q=!island">Island</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_fixing">Mana Fixing</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_base">Manabase</a></li>
+<li><a href="https://scryfall.com/search?q=!misty_rainforest">Misty Rainforest</a></li>
+<li><a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a></li>
+<li><a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a></li>
+<li><a href="https://mtg.gamepedia.com/Scry">Scry</a></li>
+<li><a href="https://mtg.fandom.com/wiki/Simic">Simic</a></li>
+<li><a href="https://scryfall.com/search?q=!tropical-island">Tropical Island</a></li>
+<li><a href="https://scryfall.com/search?q=!worldly_tutor">Worldly Tutor</a></li>
+</ul>
+			</div>
+		</content>
+    </entry>
+    
+    <entry>
+        <title>Best Golgari lands</title>
+        <link href="http://mtgmana.rocks/best_golgari_lands.html" />
+        <id>urn:uuid:fcd048a1-258d-3907-a45b-46ff3c6c986c</id>
+        <updated>2023-01-07T00:00:00Z</updated>
+        <author><name>Ludovic Heyberger</name></author>
+        <content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of <a href="https://mtg.gamepedia.com/Mana_fixing">fixing</a> their <a href="https://mtg.gamepedia.com/Mana_base">manabase</a> than other combinations.</p>
+<p>That's why it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
+<h1>10. Woodland Cemetery</h1>
+<p><img alt="Woodland Cemetery" src="assets/woodland_cemetery.jpg" /></p>
+<p>You cannot keep your hand if this is your only land, other than that, you are good to go.</p>
+<h1>9. Tainted Wood</h1>
+<p><img alt="Tainted Wood" src="assets/tainted_wood.jpg" /></p>
+<p>Will shine more in decks relying heavily on Black. Will provide colorless mana in the meantime.</p>
+<h1>8. Darkbore Pathway // Slitherbore Pathway</h1>
+<p><img alt="Darkbore Pathway // Slitherbore Pathway" src="assets/darkbore_pathway_slitherbore_pathway.jpg" /></p>
+<p>Doesn't really fix your mana but at least you get to choose your color.</p>
+<h1>7. Twilight Mire</h1>
+<p><img alt="Twilight Mire" src="assets/twilight_mire.jpg" /></p>
+<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Provides you colorless mana in the meantime.</p>
+<h1>6. Llanowar Wastes</h1>
+<p><img alt="Llanowar Wastes" src="assets/llanowar_wastes.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Won't hurt you if you don't need the colored mana.</p>
+<h1>5. Nurturing Peatland</h1>
+<p><img alt="Nurturing Peatland" src="assets/nurturing_peatland.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Can replace itself if you are desperate to draw a card.</p>
+<h1>4. Undergrowth Stadium</h1>
+<p><img alt="Undergrowth Stadium" src="assets/undergrowth_stadium.jpg" /></p>
+<p>No drawback in a Commander game other than not being fetchable.</p>
+<h1>3. Overgrown Tomb</h1>
+<p><img alt="Overgrown Tomb" src="assets/overgrown_tomb.jpg" /></p>
+<p>Almost as good as it's older brother, <a href="https://scryfall.com/search?q=!bayou">Bayou</a>.</p>
+<p>Prefered target when cracking an <a href="https://scryfall.com/search?q=!verdant-catacombs">Verdant Catacombs</a> if you have no relevant play to follow with.</p>
+<h1>2. Bayou</h1>
+<p><img alt="Bayou" src="assets/bayou.jpg" /></p>
+<p>The king of dual lands: Perfect, no drawback, no tempo loss.</p>
+<p>I only ranked <a href="https://scryfall.com/search?q=!verdant-catacombs">Verdant Catacombs</a> higher because of the amazing flexibility.</p>
+<h1>1. Verdant Catacombs</h1>
+<p><img alt="Verdant Catacombs" src="assets/verdant_catacombs.jpg" /></p>
+<p>This is the perfect land for your <a href="https://mtg.fandom.com/wiki/Golgari">Golgari</a> Commander deck.</p>
+<p>It's a <a href="https://scryfall.com/search?q=!swamp">Swamp</a> when you need it.
+It's an <a href="https://scryfall.com/search?q=!forest">Forest</a> when you need it.
+If your budget allows it, it can be a <a href="https://scryfall.com/search?q=!bayou">Bayou</a> at instant speed.
+If you have nothing else to play, it can be a <a href="https://scryfall.com/search?q=!overgrown-tomb">Overgrown Tomb</a> that enters the battlefield tapped.</p>
+<p>You should always wait until the last minute to crack your fetch land: if you need to play <a href="https://scryfall.com/search?q=!vampiric-tutor">Vampiric Tutor</a> or <a href="https://scryfall.com/search?q=!worldly-tutor">Worldly Tutor</a> at instant speed, just go fetch a <a href="https://scryfall.com/search?q=!bayou">Bayou</a>, otherwise, at the end of your opponent's turn, go fetch a <a href="https://scryfall.com/search?q=!overgrown-tomb">Overgrown Tomb</a> and let it enter the battlefield tapped.</p>
+<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or the cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a> or <a href="https://scryfall.com/search?q=!sylvan-library">Sylvan Library</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!verdant-catacombs">Verdant Catacombs</a>.</p>
+<p>Fetch lands are also good targets for recursion spells or abilities like <a href="https://scryfall.com/search?q=!crucible-of-worlds">Crucible of Worlds</a>.</p>
+<p>You can also double your fetch land activations with cards like <a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a>.</p>
+<h1>References</h1>
+<ul>
+<li><a href="https://scryfall.com/search?q=!bayou">Bayou</a></li>
+<li><a href="https://scryfall.com/search?q=!crucible-of-worlds">Crucible of Worlds</a></li>
+<li><a href="https://scryfall.com/search?q=!forest">Forest</a></li>
+<li><a href="https://mtg.fandom.com/wiki/Golgari">Golgari</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_fixing">Mana Fixing</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_base">Manabase</a></li>
+<li><a href="https://scryfall.com/search?q=!overgrown-tomb">Overgrown Tomb</a></li>
+<li><a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a></li>
+<li><a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a></li>
+<li><a href="https://mtg.gamepedia.com/Scry">Scry</a></li>
+<li><a href="https://scryfall.com/search?q=!swamp">Swamp</a></li>
+<li><a href="https://scryfall.com/search?q=!sylvan-library">Sylvan Library</a></li>
+<li><a href="https://scryfall.com/search?q=!vampiric-tutor">Vampiric Tutor</a></li>
+<li><a href="https://scryfall.com/search?q=!verdant-catacombs">Verdant Catacombs</a></li>
+<li><a href="https://scryfall.com/search?q=!worldly-tutor">Worldly Tutor</a></li>
+</ul>
+			</div>
+		</content>
+    </entry>
+    
+    <entry>
+        <title>Best Orzhov lands</title>
+        <link href="http://mtgmana.rocks/best_orzhov_lands.html" />
+        <id>urn:uuid:873c47ba-8ee8-31fe-ab7a-6f6d0ef64e00</id>
+        <updated>2023-01-06T00:00:00Z</updated>
+        <author><name>Ludovic Heyberger</name></author>
+        <content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of <a href="https://mtg.gamepedia.com/Mana_fixing">fixing</a> their <a href="https://mtg.gamepedia.com/Mana_base">manabase</a> than other combinations.</p>
+<p>That's why it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
+<h1>10. Isolated Chapel</h1>
+<p><img alt="Isolated Chapel" src="assets/isolated_chapel.jpg" /></p>
+<p>Will fix your mana if you keep a hand with either a <a href="https://scryfall.com/search?q=!plains">Plains</a>, a <a href="https://scryfall.com/search?q=!swamp">Swamp</a> or a fetch land to get one or the other.</p>
+<h1>9. Tainted Field</h1>
+<p><img alt="Tainted Field" src="assets/tainted_field.jpg" /></p>
+<p>Will shine more in decks relying heavily on Black. Will provide colorless mana in the meantime. </p>
+<h1>8. Brightclimb Pathway // Grimclimb Pathway</h1>
+<p><img alt="Brightclimb Pathway // Grimclimb Pathway" src="assets/brightclimb_pathway_grimclimb_pathway.jpg" /></p>
+<p>Doesn't really fix your mana but at least you get to choose your color.</p>
+<h1>7. Fetid Heath</h1>
+<p><img alt="Fetid Heath" src="assets/fetid_heath.jpg" /></p>
+<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Provides you colorless mana in the meantime.</p>
+<h1>6. Caves of Koilos</h1>
+<p><img alt="Caves of Koilos" src="assets/caves_of_koilos.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Won't hurt you if you don't need the colored mana.</p>
+<h1>5. Silent Clearing</h1>
+<p><img alt="Silent Clearing" src="assets/silent_clearing.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Can replace itself if you are desperate to draw a card.</p>
+<h1>4. Vault of Champions</h1>
+<p><img alt="Vault of Champions" src="assets/vault_of_champions.jpg" /></p>
+<p>No drawback in a Commander game other than not being fetchable.</p>
+<h1>3. Godless Shrine</h1>
+<p><img alt="Godless Shrine" src="assets/godless_shrine.jpg" /></p>
+<p>Almost as good as it's older brother, <a href="https://scryfall.com/search?q=!scrubland">Scrubland</a>.</p>
+<p>Prefered target when cracking a <a href="https://scryfall.com/search?q=!marsh-flats">Marsh Flats</a> if you have no relevant play to follow with.</p>
+<h1>2. Scrubland</h1>
+<p><img alt="Scrubland" src="assets/scrubland.jpg" /></p>
+<p>The king of dual lands: Perfect, no drawback, no tempo loss.</p>
+<p>I only ranked <a href="https://scryfall.com/search?q=!marsh-flats">Marsh Flats</a> higher because of the amazing flexibility.</p>
+<h1>1. Marsh Flats</h1>
+<p><img alt="Marsh Flats" src="assets/marsh_flats.jpg" /></p>
+<p>This is the perfect land for your <a href="https://mtg.fandom.com/wiki/Orzhov_Syndicate">Orzhov</a> Commander deck.</p>
+<p>It's a <a href="https://scryfall.com/search?q=!plains">Plains</a> when you need it.
+It's a <a href="https://scryfall.com/search?q=!swamp">Swamp</a> when you need it.
+If your budget allows it, it can be a <a href="https://scryfall.com/search?q=!scrubland">Scrubland</a> at instant speed.
+If you have nothing else to play, it can be a <a href="https://scryfall.com/search?q=!godless-shrine">Godless Shrine</a> that enters the battlefield tapped.</p>
+<p>You should always wait until the last minute to crack your fetch land: if you need to play <a href="https://scryfall.com/search?q=!swords-to-plowshares">Swords to Plowshares</a> at instant speed or a <a href="https://scryfall.com/search?q=!vampiric-tutor">Vampiric Tutor</a> at the end of your opponent's turn, just go fetch a <a href="https://scryfall.com/search?q=!scrubland">Scrubland</a>, otherwise, at the end of your opponent's turn, go fetch a <a href="https://scryfall.com/search?q=!godless-shrine">Godless Shrine</a> and let it enter the battlefield tapped.</p>
+<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or the cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!marsh-flats">Marsh Flats</a>.</p>
+<p>Fetch lands are also good targets for recursion spells or abilities like <a href="https://scryfall.com/search?q=!brought-back">Brought Back</a>, <a href="https://scryfall.com/search?q=!sevinnes-reclamation">Sevinne's Reclamation</a> or <a href="https://scryfall.com/search?q=!sun-titan">Sun Titan</a>.</p>
+<p>You can also double your fetch land activations with cards like <a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a>.</p>
+<h1>References</h1>
+<ul>
+<li><a href="https://scryfall.com/search?q=!brought-back">Brought Back</a></li>
+<li><a href="https://scryfall.com/search?q=!godless-shrine">Godless Shrine</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_fixing">Mana Fixing</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_base">Manabase</a></li>
+<li><a href="https://scryfall.com/search?q=!marsh-flats">Marsh Flats</a></li>
+<li><a href="https://mtg.fandom.com/wiki/Orzhov_Syndicate">Orzhov</a></li>
+<li><a href="https://scryfall.com/search?q=!plains">Plains</a></li>
+<li><a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a></li>
+<li><a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a></li>
+<li><a href="https://scryfall.com/search?q=!scrubland">Scrubland</a></li>
+<li><a href="https://mtg.gamepedia.com/Scry">Scry</a></li>
+<li><a href="https://scryfall.com/search?q=!sevinnes-reclamation">Sevinne's Reclamation</a></li>
+<li><a href="https://scryfall.com/search?q=!sun-titan">Sun Titan</a></li>
+<li><a href="https://scryfall.com/search?q=!swamp">Swamp</a></li>
+<li><a href="https://scryfall.com/search?q=!swords-to-plowshares">Swords to Plowshares</a></li>
+<li><a href="https://scryfall.com/search?q=!vampiric-tutor">Vampiric Tutor</a></li>
+</ul>
+			</div>
+		</content>
+    </entry>
+    
+    <entry>
+        <title>Best Selesnya lands</title>
+        <link href="http://mtgmana.rocks/best_selesnya_lands.html" />
+        <id>urn:uuid:57aa82f0-3b92-3a99-8f5f-6ca55278b1bf</id>
+        <updated>2023-01-05T00:00:00Z</updated>
+        <author><name>Ludovic Heyberger</name></author>
+        <content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of <a href="https://mtg.gamepedia.com/Mana_fixing">fixing</a> their <a href="https://mtg.gamepedia.com/Mana_base">manabase</a> than other combinations.</p>
+<p>That's why it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
+<h1>10. Sunpetal Grove</h1>
+<p><img alt="Sunpetal Grove" src="assets/sunpetal_grove.jpg" /></p>
+<p>Flexible enough that you can probably keep a hand with another land and be good to go.</p>
+<h1>9. Sungrass Prairie</h1>
+<p><img alt="Sungrass Prairie" src="assets/sungrass_prairie.jpg" /></p>
+<p>You cannot keep your hand if this is your only land, other than that, you are good to go.</p>
+<h1>8. Branchloft Pathway // Boulderloft Pathway</h1>
+<p><img alt="Branchloft Pathway // Boulderloft Pathway" src="assets/branchloft_pathway_boulderloft_pathway.jpg" /></p>
+<p>Doesn't really fix your mana but at least you get to choose your color.</p>
+<h1>7. Wooded Bastion</h1>
+<p><img alt="Wooded Bastion" src="assets/wooded_bastion.jpg" /></p>
+<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Provides you colorless mana in the meantime.</p>
+<h1>6. Brushland</h1>
+<p><img alt="Brushland" src="assets/brushland.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Won't hurt you if you don't need the colored mana.</p>
+<h1>5. Horizon Canopy</h1>
+<p><img alt="Horizon Canopy" src="assets/horizon_canopy.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Can replace itself if you are desperate to draw a card.</p>
+<h1>4. Bountiful Promenade</h1>
+<p><img alt="Bountiful Promenade" src="assets/bountiful_promenade.jpg" /></p>
+<p>No drawback in a Commander game other than not being fetchable.</p>
+<h1>3. Temple Garden</h1>
+<p><img alt="Temple Garden" src="assets/temple_garden.jpg" /></p>
+<p>Almost as good as it's older brother, <a href="https://scryfall.com/search?q=!savannah">Savannah</a>.</p>
+<p>Prefered target when cracking an <a href="https://scryfall.com/search?q=!windswept_heath">Windswept Heath</a> if you have no relevant play to follow with.</p>
+<h1>2. Savannah</h1>
+<p><img alt="Savannah" src="assets/savannah.jpg" /></p>
+<p>The king of dual lands: Perfect, no drawback, no tempo loss.</p>
+<p>I only ranked <a href="https://scryfall.com/search?q=!windswept_heath">Windswept Heath</a> higher because of the amazing flexibility.</p>
+<h1>1. Windswept Heath</h1>
+<p><img alt="Windswept Heath" src="assets/windswept_heath.jpg" /></p>
+<p>This is the perfect land for your <a href="https://mtg.fandom.com/wiki/Selesnya">Selesnya</a> Commander deck.</p>
+<p>It's an <a href="https://scryfall.com/search?q=!forest">Forest</a> when you need it.
+It's a <a href="https://scryfall.com/search?q=!plains">Plains</a> when you need it.
+If your budget allows it, it can be a <a href="https://scryfall.com/search?q=!savannah">Savannah</a> at instant speed.
+If you have nothing else to play, it can be a [Temple Garden][Temple Garden] that enters the battlefield tapped.</p>
+<p>You should always wait until the last minute to crack your fetch land: if you need to play <a href="https://scryfall.com/search?q=!swords-to-plowshares">Swords to Plowshares</a> or <a href="https://scryfall.com/search?q=!worldly_tutor">Worldly Tutor</a> at instant speed, just go fetch a <a href="https://scryfall.com/search?q=!savannah">Savannah</a>, otherwise, at the end of your opponent's turn, go fetch a [Temple Garden][Temple Garden] and let it enter the battlefield tapped.</p>
+<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or the cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a> or <a href="https://scryfall.com/search?q=!sylvan_library">Sylvan Library</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!windswept_heath">Windswept Heath</a>.</p>
+<p>Fetch lands are also good targets for recursion spells or abilities like <a href="https://scryfall.com/search?q=!brought-back">Brought Back</a>, <a href="https://scryfall.com/search?q=!sevinnes-reclamation">Sevinne's Reclamation</a> or <a href="https://scryfall.com/search?q=!sun-titan">Sun Titan</a>.</p>
+<p>You can also double your fetch land activations with cards like <a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a>.</p>
+<h1>References</h1>
+<ul>
+<li><a href="https://scryfall.com/search?q=!brought-back">Brought Back</a></li>
+<li><a href="https://scryfall.com/search?q=!forest">Forest</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_fixing">Mana Fixing</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_base">Manabase</a></li>
+<li><a href="https://scryfall.com/search?q=!plains">Plains</a></li>
+<li><a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a></li>
+<li><a href="https://scryfall.com/search?q=!savannah">Savannah</a></li>
+<li><a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a></li>
+<li><a href="https://mtg.gamepedia.com/Scry">Scry</a></li>
+<li><a href="https://mtg.fandom.com/wiki/Selesnya">Selesnya</a></li>
+<li><a href="https://scryfall.com/search?q=!sevinnes-reclamation">Sevinne's Reclamation</a></li>
+<li><a href="https://scryfall.com/search?q=!sun-titan">Sun Titan</a></li>
+<li><a href="https://scryfall.com/search?q=!swords-to-plowshares">Swords to Plowshares</a></li>
+<li><a href="https://scryfall.com/search?q=!sylvan_library">Sylvan Library</a></li>
+<li><a href="https://scryfall.com/search?q=!windswept_heath">Windswept Heath</a></li>
+<li><a href="https://scryfall.com/search?q=!worldly_tutor">Worldly Tutor</a></li>
+</ul>
+			</div>
+		</content>
+    </entry>
+    
+    <entry>
+        <title>Best Gruul lands</title>
+        <link href="http://mtgmana.rocks/best_gruul_lands.html" />
+        <id>urn:uuid:62e19fd5-7874-31c0-b2b7-896c01714bca</id>
+        <updated>2023-01-04T00:00:00Z</updated>
+        <author><name>Ludovic Heyberger</name></author>
+        <content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of <a href="https://mtg.gamepedia.com/Mana_fixing">fixing</a> their <a href="https://mtg.gamepedia.com/Mana_base">manabase</a> than other combinations.</p>
+<p>That's why it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
+<h1>10. Grove of the Burnwillows</h1>
+<p><img alt="Grove of the Burnwillows" src="assets/grove_of_the_burnwillows.jpg" /></p>
+<p>When you will need some colored mana, giving 1 life to each of your oppononents won't matter that much. Provides you colorless mana in the meantime.</p>
+<h1>9. Rootbound Crag</h1>
+<p><img alt="Rootbound Crag" src="assets/rootbound_crag.jpg" /></p>
+<p>Flexible enough that you can probably keep a hand with another land and be good to go.</p>
+<h1>8. Mossfire Valley</h1>
+<p><img alt="Mossfire Valley" src="assets/mossfire_valley.jpg" /></p>
+<p>You cannot keep your hand if this is your only land, other than that, you are good to go.</p>
+<h1>7. Cragcrown Pathway // Timbercrown Pathway</h1>
+<p><img alt="Cragcrown Pathway // Timbercrown Pathway" src="assets/cragcrown_pathway_timbercrown_pathway.jpg" /></p>
+<p>Doesn't really fix your mana but at least you get to choose your color.</p>
+<h1>6. Fire-Lit Thicket</h1>
+<p><img alt="Fire-Lit Thicket" src="assets/fire_lit_thicket.jpg" /></p>
+<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Provides you colorless mana in the meantime.</p>
+<h1>5. Karplusan Forest</h1>
+<p><img alt="Karplusan Forest" src="assets/karplusan_forest.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Won't hurt you if you don't need the colored mana.</p>
+<h1>4. Spire Garden</h1>
+<p><img alt="Spire Garden" src="assets/spire_garden.jpg" /></p>
+<p>No drawback in a Commander game other than not being fetchable.</p>
+<h1>3. Stomping Ground</h1>
+<p><img alt="Stomping Ground" src="assets/stomping_ground.jpg" /></p>
+<p>Almost as good as it's older brother, <a href="https://scryfall.com/search?q=!taiga">Taiga</a>.</p>
+<p>Prefered target when cracking <a href="https://scryfall.com/search?q=!wooded-foothills">Wooded Foothills</a> if you have no relevant play to follow with.</p>
+<h1>2. Taiga</h1>
+<p><img alt="Taiga" src="assets/taiga.jpg" /></p>
+<p>The king of dual lands: Perfect, no drawback, no tempo loss.</p>
+<p>I only ranked <a href="https://scryfall.com/search?q=!wooded-foothills">Wooded Foothills</a> higher because of the amazing flexibility.</p>
+<h1>1. Wooded Foothills</h1>
+<p><img alt="Wooded Foothills" src="assets/wooded_foothills.jpg" /></p>
+<p>This is the perfect land for your <a href="https://mtg.fandom.com/wiki/Gruul">Gruul</a> Commander deck.</p>
+<p>It's an <a href="https://scryfall.com/search?q=!mountain">Mountain</a> when you need it.
+It's a <a href="https://scryfall.com/search?q=!forest">Forest</a> when you need it.
+If your budget allows it, it can be a <a href="https://scryfall.com/search?q=!taiga">Taiga</a> at instant speed.
+If you have nothing else to play, it can be a <a href="https://scryfall.com/search?q=!stomping-ground">Stomping Ground</a> that enters the battlefield tapped.</p>
+<p>You should always wait until the last minute to crack your fetch land: if you need to play <a href="https://scryfall.com/search?q=!worldly-tutor">Worldly Tutor</a> or <a href="https://scryfall.com/search?q=!pyroblast">Pyroblast</a> at instant speed, just go fetch a <a href="https://scryfall.com/search?q=!taiga">Taiga</a>, otherwise, at the end of your opponent's turn, go fetch a <a href="https://scryfall.com/search?q=!stomping-ground">Stomping Ground</a> and let it enter the battlefield tapped.</p>
+<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or the cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!wooded-foothills">Wooded Foothills</a>.</p>
+<p>Fetch lands are also good targets for recursion spells or abilities like <a href="https://scryfall.com/search?q=!crucible-of-worlds">Crucible of Worlds</a>.</p>
+<p>You can also double your fetch land activations with cards like <a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a>.</p>
+<h1>References</h1>
+<ul>
+<li><a href="https://scryfall.com/search?q=!crucible-of-worlds">Crucible of Worlds</a></li>
+<li><a href="https://scryfall.com/search?q=!forest">Forest</a></li>
+<li><a href="https://mtg.fandom.com/wiki/Gruul">Gruul</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_fixing">Mana Fixing</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_base">Manabase</a></li>
+<li><a href="https://scryfall.com/search?q=!mountain">Mountain</a></li>
+<li><a href="https://scryfall.com/search?q=!pyroblast">Pyroblast</a></li>
+<li><a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a></li>
+<li><a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a></li>
+<li><a href="https://mtg.gamepedia.com/Scry">Scry</a></li>
+<li><a href="https://scryfall.com/search?q=!stomping-ground">Stomping Ground</a></li>
+<li><a href="https://scryfall.com/search?q=!taiga">Taiga</a></li>
+<li><a href="https://scryfall.com/search?q=!wooded-foothills">Wooded Foothills</a></li>
+<li><a href="https://scryfall.com/search?q=!worldly-tutor">Worldly Tutor</a></li>
+</ul>
+			</div>
+		</content>
+    </entry>
+    
+    <entry>
+        <title>Best Rakdos lands</title>
+        <link href="http://mtgmana.rocks/best_rakdos_lands.html" />
+        <id>urn:uuid:e5e11cac-2059-30c0-a9d4-619d3bbcfbb3</id>
+        <updated>2023-01-03T00:00:00Z</updated>
+        <author><name>Ludovic Heyberger</name></author>
+        <content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of <a href="https://mtg.gamepedia.com/Mana_fixing">fixing</a> their <a href="https://mtg.gamepedia.com/Mana_base">manabase</a> than other combinations.</p>
+<p>That's why it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
+<h1>10. Dragonskull Summit</h1>
+<p><img alt="Dragonskull Summit" src="assets/dragonskull_summit.jpg" /></p>
+<p>Flexible enough that you can probably keep a hand with another land and be good to go.</p>
+<h1>9. Tainted Peak</h1>
+<p><img alt="Tainted Peak" src="assets/tainted_peak.jpg" /></p>
+<p>Will shine more in decks relying heavily on Black. Will provide colorless mana in the meantime.</p>
+<h1>8. Shadowblood Ridge</h1>
+<p><img alt="Shadowblood Ridge" src="assets/shadowblood_ridge.jpg" /></p>
+<p>You cannot keep your hand if this is your only land, other than that, you are good to go.</p>
+<h1>7. Blightstep Pathway // Searstep Pathway</h1>
+<p><img alt="Blightstep Pathway // Searstep Pathway" src="assets/blightstep_pathway_searstep_pathway.jpg" /></p>
+<p>Doesn't really fix your mana but at least you get to choose your color.</p>
+<h1>6. Graven Cairns</h1>
+<p><img alt="Graven Cairns" src="assets/graven_cairns.jpg" /></p>
+<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Provides you colorless mana in the meantime.</p>
+<h1>5. Sulfurous Springs</h1>
+<p><img alt="Sulfurous Springs" src="assets/sulfurous_springs.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Won't hurt you if you don't need the colored mana.</p>
+<h1>4. Luxury Suite</h1>
+<p><img alt="Luxury Suite" src="assets/luxury_suite.jpg" /></p>
+<p>No drawback in a Commander game other than not being fetchable.</p>
+<h1>3. Blood Crypt</h1>
+<p><img alt="Blood Crypt" src="assets/blood_crypt.jpg" /></p>
+<p>Almost as good as it's older brother, <a href="https://scryfall.com/search?q=!badlands">Badlands</a>.</p>
+<p>Prefered target when cracking <a href="https://scryfall.com/search?q=!bloodstained-mire">Bloodstained Mire</a> if you have no relevant play to follow with.</p>
+<h1>2. Badlands</h1>
+<p><img alt="Badlands" src="assets/badlands.jpg" /></p>
+<p>The king of dual lands: Perfect, no drawback, no tempo loss.</p>
+<p>I only ranked <a href="https://scryfall.com/search?q=!bloodstained-mire">Bloodstained Mire</a> higher because of the amazing flexibility.</p>
+<h1>1. Bloodstained Mire</h1>
+<p><img alt="Bloodstained Mire" src="assets/bloodstained_mire.jpg" /></p>
+<p>This is the perfect land for your <a href="https://mtg.fandom.com/wiki/Rakdos">Rakdos</a> Commander deck.</p>
+<p>It's a <a href="https://scryfall.com/search?q=!swamp">Swamp</a> when you need it.
+It's an <a href="https://scryfall.com/search?q=!mountain">Mountain</a> when you need it.
+If your budget allows it, it can be a <a href="https://scryfall.com/search?q=!badlands">Badlands</a> at instant speed.
+If you have nothing else to play, it can be a <a href="https://scryfall.com/search?q=!blood-crypt">Blood Crypt</a> that enters the battlefield tapped.</p>
+<p>You should always wait until the last minute to crack your fetch land: if you need to play <a href="https://scryfall.com/search?q=!vampiric-tutor">Vampiric Tutor</a> or <a href="https://scryfall.com/search?q=!pyroblast">Pyroblast</a> at instant speed, just go fetch a <a href="https://scryfall.com/search?q=!badlands">Badlands</a>, otherwise, at the end of your opponent's turn, go fetch a <a href="https://scryfall.com/search?q=!blood-crypt">Blood Crypt</a> and let it enter the battlefield tapped.</p>
+<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or the cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!bloodstained-mire">Bloodstained Mire</a>.</p>
+<p>Fetch lands are also good targets for recursion spells or abilities like <a href="https://scryfall.com/search?q=!crucible-of-worlds">Crucible of Worlds</a>.</p>
+<p>You can also double your fetch land activations with cards like <a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a>.</p>
+<h1>References</h1>
+<ul>
+<li><a href="https://scryfall.com/search?q=!badlands">Badlands</a></li>
+<li><a href="https://scryfall.com/search?q=!blood-crypt">Blood Crypt</a></li>
+<li><a href="https://scryfall.com/search?q=!bloodstained-mire">Bloodstained Mire</a></li>
+<li><a href="https://scryfall.com/search?q=!crucible-of-worlds">Crucible of Worlds</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_fixing">Mana Fixing</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_base">Manabase</a></li>
+<li><a href="https://scryfall.com/search?q=!mountain">Mountain</a></li>
+<li><a href="https://scryfall.com/search?q=!pyroblast">Pyroblast</a></li>
+<li><a href="https://mtg.fandom.com/wiki/Rakdos">Rakdos</a></li>
+<li><a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a></li>
+<li><a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a></li>
+<li><a href="https://mtg.gamepedia.com/Scry">Scry</a></li>
+<li><a href="https://scryfall.com/search?q=!swamp">Swamp</a></li>
+<li><a href="https://scryfall.com/search?q=!vampiric-tutor">Vampiric Tutor</a></li>
+</ul>
+			</div>
+		</content>
+    </entry>
+    
+    <entry>
+        <title>Best Dimir lands</title>
+        <link href="http://mtgmana.rocks/best_dimir_lands.html" />
+        <id>urn:uuid:cf4ff2c2-390d-3990-b7db-2ae270563f3a</id>
+        <updated>2023-01-02T00:00:00Z</updated>
+        <author><name>Ludovic Heyberger</name></author>
+        <content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of <a href="https://mtg.gamepedia.com/Mana_fixing">fixing</a> their <a href="https://mtg.gamepedia.com/Mana_base">manabase</a> than other combinations.</p>
+<p>That's why it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
+<h1>10. Drowned Catacomb</h1>
+<p><img alt="Drowned Catacomb" src="assets/drowned_catacomb.jpg" /></p>
+<p>Flexible enough that you can probably keep a hand with another land and be good to go.</p>
+<h1>9. Tainted Isle</h1>
+<p><img alt="Tainted Isle" src="assets/tainted_isle.jpg" /></p>
+<p>Will shine more in decks relying heavily on Black. Will provide colorless mana in the meantime.</p>
+<h1>8. Darkwater Catacombs</h1>
+<p><img alt="Darkwater Catacombs" src="assets/darkwater_catacombs.jpg" /></p>
+<p>You cannot keep your hand if this is your only land, other than that, you are good to go.</p>
+<h1>7. Clearwater Pathway // Murkwater Pathway</h1>
+<p><img alt="Clearwater Pathway // Murkwater Pathway" src="assets/clearwater_pathway_murkwater_pathway.jpg" /></p>
+<p>Doesn't really fix your mana but at least you get to choose your color.</p>
+<h1>6. Sunken Ruins</h1>
+<p><img alt="Sunken Ruins" src="assets/sunken_ruins.jpg" /></p>
+<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Provides you colorless mana in the meantime.</p>
+<h1>5. Underground River</h1>
+<p><img alt="Underground River" src="assets/underground_river.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Won't hurt you if you don't need the colored mana.</p>
+<h1>4. Morphic Pool</h1>
+<p><img alt="Morphic Pool" src="assets/morphic_pool.jpg" /></p>
+<p>No drawback in a Commander game other than not being fetchable.</p>
+<h1>3. Watery Grave</h1>
+<p><img alt="Watery Grave" src="assets/watery_grave.jpg" /></p>
+<p>Almost as good as it's older brother, <a href="https://scryfall.com/search?q=!underground-sea">Underground Sea</a>.</p>
+<p>Prefered target when cracking an <a href="https://scryfall.com/search?q=!polluted-delta">Polluted Delta</a> if you have no relevant play to follow with.</p>
+<h1>2. Underground Sea</h1>
+<p><img alt="Underground Sea" src="assets/underground_sea.jpg" /></p>
+<p>The king of dual lands: Perfect, no drawback, no tempo loss.</p>
+<p>I only ranked <a href="https://scryfall.com/search?q=!polluted-delta">Polluted Delta</a> higher because of the amazing flexibility.</p>
+<h1>1. Polluted Delta</h1>
+<p><img alt="Polluted Delta" src="assets/polluted_delta.jpg" /></p>
+<p>This is the perfect land for your <a href="https://mtg.fandom.com/wiki/Dimir">Dimir</a> Commander deck.</p>
+<p>It's a <a href="https://scryfall.com/search?q=!swamp">Swamp</a> when you need it.
+It's an <a href="https://scryfall.com/search?q=!island">Island</a> when you need it.
+If your budget allows it, it can be a <a href="https://scryfall.com/search?q=!underground-sea">Underground Sea</a> at instant speed.
+If you have nothing else to play, it can be a <a href="https://scryfall.com/search?q=!watery-grave">Watery Grave</a> that enters the battlefield tapped.</p>
+<p>You should always wait until the last minute to crack your fetch land: if you need to play <a href="https://scryfall.com/search?q=!vampiric-tutor">Vampiric Tutor</a> or <a href="https://scryfall.com/search?q=!dispel">Dispel</a> at instant speed, just go fetch a <a href="https://scryfall.com/search?q=!underground-sea">Underground Sea</a>, otherwise, at the end of your opponent's turn, go fetch a <a href="https://scryfall.com/search?q=!watery-grave">Watery Grave</a> and let it enter the battlefield tapped.</p>
+<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or the cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a> or <a href="https://scryfall.com/search?q=!brainstorm">Brainstorm</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!polluted-delta">Polluted Delta</a>.</p>
+<p>Fetch lands are also good targets for recursion spells or abilities like <a href="https://scryfall.com/search?q=!crucible-of-worlds">Crucible of Worlds</a>.</p>
+<p>You can also double your fetch land activations with cards like <a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a>.</p>
+<h1>References</h1>
+<ul>
+<li><a href="https://scryfall.com/search?q=!brainstorm">Brainstorm</a></li>
+<li><a href="https://scryfall.com/search?q=!crucible-of-worlds">Crucible of Worlds</a></li>
+<li><a href="https://mtg.fandom.com/wiki/Dimir">Dimir</a></li>
+<li><a href="https://scryfall.com/search?q=!dispel">Dispel</a></li>
+<li><a href="https://scryfall.com/search?q=!island">Island</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_fixing">Mana Fixing</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_base">Manabase</a></li>
+<li><a href="https://scryfall.com/search?q=!polluted-delta">Polluted Delta</a></li>
+<li><a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a></li>
+<li><a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a></li>
+<li><a href="https://mtg.gamepedia.com/Scry">Scry</a></li>
+<li><a href="https://scryfall.com/search?q=!swamp">Swamp</a></li>
+<li><a href="https://scryfall.com/search?q=!underground-sea">Underground Sea</a></li>
+<li><a href="https://scryfall.com/search?q=!vampiric-tutor">Vampiric Tutor</a></li>
+<li><a href="https://scryfall.com/search?q=!watery-grave">Watery Grave</a></li>
+</ul>
+			</div>
+		</content>
+    </entry>
+    
+    <entry>
+        <title>Best Azorius lands</title>
+        <link href="http://mtgmana.rocks/best_azorius_lands.html" />
+        <id>urn:uuid:bc9505f2-50fd-3916-a4a4-0070bff4f094</id>
+        <updated>2023-01-01T00:00:00Z</updated>
+        <author><name>Ludovic Heyberger</name></author>
+        <content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<p>Building a 2 colors Commander deck is always tricky. Compared to the other configurations (1 color and 3+ colors), 2 colors decks have less ways of <a href="https://mtg.gamepedia.com/Mana_fixing">fixing</a> their <a href="https://mtg.gamepedia.com/Mana_base">manabase</a> than other combinations.</p>
+<p>That's why it's particularly important to know what your options are if you want to make the most out of your <a href="https://mtg.gamepedia.com/Mana_base">manabase</a>.</p>
+<h1>10. Port Town</h1>
+<p><img alt="Port Town" src="assets/port_town.jpg" /></p>
+<p>More restrictive than Glacial Fortress because it requires you to have an actual <a href="https://scryfall.com/search?q=!plains">Plains</a> or an <a href="https://scryfall.com/search?q=!island">Island</a> in your starting hand.</p>
+<h1>9. Glacial Fortress</h1>
+<p><img alt="Glacial Fortress" src="assets/glacial_fortress.jpg" /></p>
+<p>More flexible than Port Town because you can keep a hand with a fetch land in addition to Glacial Fortress.</p>
+<h1>8. Skycloud Expanse</h1>
+<p><img alt="Skycloud Expanse" src="assets/skycloud_expanse.jpg" /></p>
+<p>You cannot keep your hand if this is your only land, other than that, you are good to go.</p>
+<h1>7. Hengegate Pathway // Mistgate Pathway</h1>
+<p><img alt="Hengegate Pathway // Mistgate Pathway" src="assets/hengegate_pathway_mistgate_pathway.jpg" /></p>
+<p>Doesn't really fix your mana but at least you get to choose your color.</p>
+<h1>6. Mystic Gate</h1>
+<p><img alt="Mystic Gate" src="assets/mystic_gate.jpg" /></p>
+<p>Instant speed fixing for both of your colors if you happen to already have one of those two colors. Provides you colorless mana in the meantime.</p>
+<h1>5. Adarkar Wastes</h1>
+<p><img alt="Adarkar Wastes" src="assets/adarkar_wastes.jpg" /></p>
+<p>Instant speed fixing for your deck with a 1 life drawback each time. Won't hurt you if you don't need the colored mana.</p>
+<h1>4. Sea of Clouds</h1>
+<p><img alt="Sea of Clouds" src="assets/sea_of_clouds.jpg" /></p>
+<p>No drawback in a Commander game other than not being fetchable.</p>
+<h1>3. Hallowed Fountain</h1>
+<p><img alt="Hallowed Fountain" src="assets/hallowed_fountain.jpg" /></p>
+<p>Almost as good as it's older brother, <a href="https://scryfall.com/search?q=!tundra">Tundra</a>.</p>
+<p>Prefered target when cracking an <a href="https://scryfall.com/search?q=!flooded-strand">Flooded Strand</a> if you have no relevant play to follow with.</p>
+<h1>2. Tundra</h1>
+<p><img alt="Tundra" src="assets/tundra.jpg" /></p>
+<p>The king of dual lands: Perfect, no drawback, no tempo loss.</p>
+<p>I only ranked <a href="https://scryfall.com/search?q=!flooded-strand">Flooded Strand</a> higher because of the amazing flexibility.</p>
+<h1>1. Flooded Strand</h1>
+<p><img alt="Flooded Strand" src="assets/flooded_strand.jpg" /></p>
+<p>This is the perfect land for your <a href="https://mtg.fandom.com/wiki/Azorius">Azorius</a> Commander deck.</p>
+<p>It's a <a href="https://scryfall.com/search?q=!plains">Plains</a> when you need it.
+It's an <a href="https://scryfall.com/search?q=!island">Island</a> when you need it.
+If your budget allows it, it can be a <a href="https://scryfall.com/search?q=!tundra">Tundra</a> at instant speed.
+If you have nothing else to play, it can be a <a href="https://scryfall.com/search?q=!hallowed-fountain">Hallowed Fountain</a> that enters the battlefield tapped.</p>
+<p>You should always wait until the last minute to crack your fetch land: if you need to play <a href="https://scryfall.com/search?q=!swords-to-plowshares">Swords to Plowshares</a> or <a href="https://scryfall.com/search?q=!dispel">Dispel</a> at instant speed, just go fetch a <a href="https://scryfall.com/search?q=!tundra">Tundra</a>, otherwise, at the end of your opponent's turn, go fetch a <a href="https://scryfall.com/search?q=!hallowed-fountain">Hallowed Fountain</a> and let it enter the battlefield tapped.</p>
+<p>Cracking a fetch land and shuffling your library is also what makes it so good. If for whatever reason, you're not happy with your <a href="https://mtg.gamepedia.com/Scry">scry</a>, or the cards you put back on top of your library with a <a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a> or <a href="https://scryfall.com/search?q=!brainstorm">Brainstorm</a>, you can get rid of them by cracking the <a href="https://scryfall.com/search?q=!flooded-strand">Flooded Strand</a>.</p>
+<p>Fetch lands are also good targets for recursion spells or abilities like <a href="https://scryfall.com/search?q=!brought-back">Brought Back</a>, <a href="https://scryfall.com/search?q=!sevinnes-reclamation">Sevinne's Reclamation</a> or <a href="https://scryfall.com/search?q=!sun-titan">Sun Titan</a>.</p>
+<p>You can also double your fetch land activations with cards like <a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a>.</p>
+<h1>References</h1>
+<ul>
+<li><a href="https://mtg.fandom.com/wiki/Azorius">Azorius</a></li>
+<li><a href="https://scryfall.com/search?q=!brainstorm">Brainstorm</a></li>
+<li><a href="https://scryfall.com/search?q=!brought-back">Brought Back</a></li>
+<li><a href="https://scryfall.com/search?q=!dispel">Dispel</a></li>
+<li><a href="https://scryfall.com/search?q=!flooded-strand">Flooded Strand</a></li>
+<li><a href="https://scryfall.com/search?q=!hallowed-fountain">Hallowed Fountain</a></li>
+<li><a href="https://scryfall.com/search?q=!island">Island</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_fixing">Mana Fixing</a></li>
+<li><a href="https://mtg.gamepedia.com/Mana_base">Manabase</a></li>
+<li><a href="https://scryfall.com/search?q=!plains">Plains</a></li>
+<li><a href="https://scryfall.com/search?q=!rings-of-brighthearth">Rings of Brighthearth</a></li>
+<li><a href="https://scryfall.com/search?q=!scroll-rack">Scroll Rack</a></li>
+<li><a href="https://mtg.gamepedia.com/Scry">Scry</a></li>
+<li><a href="https://scryfall.com/search?q=!sevinnes-reclamation">Sevinne's Reclamation</a></li>
+<li><a href="https://scryfall.com/search?q=!sun-titan">Sun Titan</a></li>
+<li><a href="https://scryfall.com/search?q=!swords-to-plowshares">Swords to Plowshares</a></li>
+<li><a href="https://scryfall.com/search?q=!tundra">Tundra</a></li>
 </ul>
 			</div>
 		</content>
@@ -85,9 +738,9 @@ If you don't have a relevant play to follow up, it can be a <a href="https://scr
 			<div xmlns="http://www.w3.org/1999/xhtml">
 				<p>Hello everybody! Let me introduce myself.</p>
 <p>My name is Ludovic Heyberger, and I've been playing <a href="https://magic.wizards.com">Magic The Gathering</a> since 1995.</p>
-<p>I discovered the game with the <a href="https://magic.wizards.com/en/game-info/products/card-set-archive/fourth-edition">4th Edition</a>, <a href="https://magic.wizards.com/en/game-info/products/card-set-archive/homelands">HomeLands</a> and <a href="https://magic.wizards.com/en/game-info/products/card-set-archive/ice-age">Ice Age</a> and I've been playing until <a href="https://magic.wizards.com/en/game-info/products/card-set-archive/tempest">Tempest</a>.</p>
-<p>I started playing again 5 years later with <a href="https://magic.wizards.com/en/game-info/products/card-set-archive/onslaught">Onslaught</a>, <a href="https://magic.wizards.com/en/game-info/products/card-set-archive/legions">Legion</a> and <a href="https://magic.wizards.com/en/game-info/products/card-set-archive/scourge">Sourge</a>, and I never stopped since then.</p>
-<p>I discovered <a href="http://www.mtgcommander.net">Commander</a> a few years ago and I got immediately totally addicted.</p>
+<p>I discovered the game with the <a href="https://scryfall.com/sets/4ed">4th Edition</a> and <a href="https://scryfall.com/sets/ice">Ice Age</a> and I've been playing until <a href="https://scryfall.com/sets/tmp">Tempest</a>.</p>
+<p>I started playing again 5 years later with <a href="https://scryfall.com/sets/ons">Onslaught</a>, <a href="https://scryfall.com/sets/lgn">Legion</a> and <a href="https://scryfall.com/sets/scg">Sourge</a>, and I never stopped since then.</p>
+<p>I discovered <a href="http://mtgcommander.net">Commander</a> in 2015, became immediately addicted and never looked back at other formats.</p>
 <p>This website is my humble attempt at contributing to this wonderful format.</p>
 			</div>
 		</content>

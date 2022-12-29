@@ -4,6 +4,7 @@
 	<header>
 		<h1>{{ title }}</h1>
 		<h2>{{ subtitle }}</h2>
+		{% if banner %}<img alt="{{ title }}" src="{{ banner }}" />{% endif %}
 	</header>
 	{{ article }}
 	<footer>
