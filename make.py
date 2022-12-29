@@ -11,7 +11,7 @@ _env = Environment(loader = FileSystemLoader("./layout"))
 _baseref = "http://mtgmana.rocks/"
 _uuid = "0c9d723f-5560-40cc-a4c9-4d30df31e293"
 _outputdir = posixpath.join(".", "docs")
-_todeploy = [ "./style/style.css", "./style/prettify/" ]
+_todeploy = [ "./style/style.css" ]
 
 def createdir(dirname):
 	if not os.path.exists(dirname):
@@ -48,15 +48,16 @@ def build_archives(global_vars, posts, tags):
 
 def build_post(global_vars, post, previous_posts, is_first = False):
 	context = {
-		"title" : post["title"],
-		"subtitle" : post.get("subtitle"),
-		"author" : post.get("author"),
-		"date" : post["date"],
-		"edited" : post.get("edited"),
-		"article" : post["article"],
-		"permalink" : posixpath.join(_baseref, post["tag"] + ".html"),
-		"tags" : post.get("tags"),
-		"previous_posts" : previous_posts,
+		"title": post["title"],
+		"subtitle": post.get("subtitle"),
+		"author": post.get("author"),
+		"date": post["date"],
+		"edited": post.get("edited"),
+		"banner": post.get("banner"),
+		"article": post["article"],
+		"permalink": posixpath.join(_baseref, post["tag"] + ".html"),
+		"tags": post.get("tags"),
+		"previous_posts": previous_posts,
 	}
 	context.update(global_vars)
 	render(post["tag"] + ".html", "post.html", context)
@@ -130,7 +131,7 @@ def main(filter_drafts = True):
 	build_atom(global_vars, sorted_list)
 
 	# deploy
-	# subprocess.call([ "sass", "./style/sass/style.scss", "./style/style.css" ])
+	subprocess.call([ "sass", "./style/sass/style.scss", "./style/style.css" ])
 	for target in _todeploy:
 		deploy(target, _outputdir)
 
