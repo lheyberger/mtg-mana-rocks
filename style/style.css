@@ -110,10 +110,16 @@ body > header nav {
 }
 body > header li {
   display: inline;
-  margin-left: 20px;
   font-size: 1.1em;
   font-weight: 700;
   letter-spacing: 1px;
+  padding: 0 10px;
+}
+body > header li:first-child {
+  padding: 0 10px 0 0;
+}
+body > header li:last-child {
+  padding: 0 0 0 10px;
 }
 body > header li a:hover {
   border-bottom: 2px solid #F4DB7D;
@@ -155,9 +161,9 @@ article:not(:only-of-type) {
   margin: 3em 0;
 }
 article:not(:only-of-type) > header > h1 {
-  margin: 1px;
-  font-size: 2.7em;
-  line-height: 150%;
+  margin-bottom: 0.3em;
+  font-size: 2.5em;
+  line-height: 1em;
   font-weight: bolder;
   letter-spacing: 1px;
 }
@@ -168,15 +174,15 @@ article:not(:only-of-type) > header > h1 a:hover {
   color: #1A2238;
 }
 article:not(:only-of-type) > header > h2 {
+  margin-top: 0.3em;
   font-size: 1.2em;
   font-weight: lighter;
   font-style: italic;
   letter-spacing: 1px;
 }
 article:not(:only-of-type) > footer {
-  margin-top: 1.5em;
+  margin-top: 1em;
   padding: 0.5em;
-  line-height: 150%;
   background-color: #F1F0EE;
   overflow: hidden;
 }
@@ -191,24 +197,27 @@ article:not(:only-of-type) > footer p:nth-child(2) a {
   font-size: 0.95em;
   background-color: #FF6A3D;
   color: #FCF9F4;
-  padding: 0.1em 0.4em 0.1em;
+  padding: 0.2em 0.4em 0.2em;
   border-radius: 1px;
 }
 
 article:only-of-type header {
-  margin: 5em 0;
+  margin: 3em 0 2em;
   text-align: center;
 }
 article:only-of-type header > h1 {
-  line-height: 1.5em;
+  line-height: 1em;
   font-size: 2.2em;
-  font-weight: bold;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-bottom: 0.3em;
 }
 article:only-of-type header > h2 {
-  line-height: 1.5em;
-  font-size: 1.5em;
-  font-style: italic;
+  margin-top: 0.3em;
+  font-size: 1.2em;
   font-weight: lighter;
+  font-style: italic;
+  letter-spacing: 1px;
 }
 article:only-of-type header > img {
   margin-top: 2em;
@@ -217,17 +226,20 @@ article:only-of-type header > img {
 article:only-of-type > h1 {
   font-size: 1.9em;
   font-weight: bold;
-  margin: 2em 0 1em;
+  margin: 1.5em 0 1em;
+  line-height: 1em;
 }
 article:only-of-type > h2 {
   font-size: 1.6em;
   font-weight: normal;
-  margin: 2em 0 1em;
+  margin: 1em 0 0.5em;
+  line-height: 1em;
 }
 article:only-of-type > h3 {
   font-size: 1.4em;
   font-weight: normal;
-  margin: 2em 0 1em;
+  margin: 0.5em 0;
+  line-height: 1em;
 }
 article:only-of-type > p, article:only-of-type > blockquote {
   line-height: 1.5em;
@@ -270,6 +282,7 @@ article:only-of-type > footer h1 {
   font-size: 1.3em;
   font-weight: bold;
   margin: 0.5em 0;
+  line-height: 1em;
 }
 article:only-of-type > footer li {
   line-height: 1.5em;
@@ -285,15 +298,15 @@ article:only-of-type > footer p:nth-child(2) a {
 }
 
 dl {
-  margin-bottom: 3em;
+  margin: 3em 0;
 }
 dl dt {
-  font-size: 1.55em;
+  margin: 1.5em 0 1em;
+  font-size: 1.5em;
   font-weight: bold;
-  margin: 2em 0 1em;
 }
 dl dd {
-  line-height: 1.5em;
+  margin: 0.5em 0;
 }
 
 /*# sourceMappingURL=style.css.map */
