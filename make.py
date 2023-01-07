@@ -12,7 +12,7 @@ from PIL import Image
 _env = Environment(loader = FileSystemLoader("./layout"))
 
 _name = "MTG Mana Rocks"
-_baseref = "http://mtgmana.rocks/"
+_baseref = "https://mtgmana.rocks/"
 _uuid = "0c9d723f-5560-40cc-a4c9-4d30df31e293"
 _outputdir = posixpath.join(".", "docs")
 _todeploy = [ "./style/style.css" ]

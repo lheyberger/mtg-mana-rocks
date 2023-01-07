@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>MTG Mana Rocks</title>
-    <link href="http://mtgmana.rocks/" rel="self" />
+    <link href="https://mtgmana.rocks/" rel="self" />
     <id>urn:uuid:0c9d723f-5560-40cc-a4c9-4d30df31e293</id>
-    <updated>2023-01-07T15:33:42Z</updated>
+    <updated>2023-01-07T15:36:51Z</updated>
     <entry>
         <title>MTG Tools - EDHRank</title>
-        <link href="http://mtgmana.rocks/tool_edhrank.html" />
+        <link href="https://mtgmana.rocks/tool_edhrank.html" />
         <id>urn:uuid:bc98e530-7b68-3b2a-b41b-d4e939d45827</id>
         <published>2023-01-03T00:00:00Z</published><author><name>Ludovic Heyberger</name></author>
         <summary>A fun and automated way to evaluate your deck's power level</summary>
     </entry><entry>
         <title>MTG Tools - Card Render Bot</title>
-        <link href="http://mtgmana.rocks/tool_cardrenderbot.html" />
+        <link href="https://mtgmana.rocks/tool_cardrenderbot.html" />
         <id>urn:uuid:ab724c17-8841-389b-bb0d-5269450761d3</id>
         <published>2023-01-02T00:00:00Z</published><author><name>Ludovic Heyberger</name></author>
         <summary>Beautiful renders of your favorite cards</summary>
     </entry><entry>
         <title>About</title>
-        <link href="http://mtgmana.rocks/about.html" />
+        <link href="https://mtgmana.rocks/about.html" />
         <id>urn:uuid:540f675a-4700-3977-a320-d4aba24fd85a</id>
         <published>2023-01-01T00:00:00Z</published><author><name>Ludovic Heyberger</name></author>
         <summary>Sharing my passion for Magic The Gathering</summary>
