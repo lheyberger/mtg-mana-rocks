@@ -88,15 +88,25 @@ body > header a:hover {
   color: #FF6A3D;
 }
 body > header h1 {
-  float: left;
-  margin: 40px 0 0 10%;
   font-size: 1.4em;
   font-weight: 900;
   letter-spacing: 1px;
+  text-align: center;
+  padding: 20px 0 0 0;
 }
 body > header nav {
-  float: right;
-  margin: 40px 10% 0 0;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+@media only screen and (min-width: 1000px) {
+  body > header h1 {
+    float: left;
+    padding: 40px 0 0 10%;
+  }
+  body > header nav {
+    float: right;
+    padding: 40px 10% 0 0;
+  }
 }
 body > header li {
   display: inline;

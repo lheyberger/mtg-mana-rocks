@@ -9,16 +9,26 @@ body {
         @include link-color($header-link-color, $header-link-color-hover);
 
         h1 {
-            float: left;
-            margin: 40px 0 0 10%;
             font-size: 1.4em;
             font-weight: 900;
             letter-spacing: 1px;
+            text-align: center;
+            padding: 20px 0 0 0;
+        }
+        nav {
+            text-align: center;
+            padding: 20px 0 0 0;
         }
 
-        nav {
-            float: right;
-            margin: 40px 10% 0 0;
+        @include wide {
+            h1 {
+                float: left;
+                padding: 40px 0 0 10%;
+            }
+            nav {
+                float: right;
+                padding: 40px 10% 0 0;
+            }
         }
 
         li {
