@@ -17,8 +17,8 @@
 		<meta name="twitter:description" content="{{ subtitle }}">
 		{% endif %}
 		{% if banner %}
-		<meta property="og:image" content="{{ banner }}">
-		<meta name="twitter:image" content="{{ banner }}">
+		<meta property="og:image" content="{{ baseref }}{{ banner }}">
+		<meta name="twitter:image" content="{{ baseref }}{{ banner }}">
 		{% endif %}
 		{% if permalink %}
 		<meta property="og:url" content="{{ permalink }}" />
