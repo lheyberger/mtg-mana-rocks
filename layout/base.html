@@ -4,6 +4,19 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>{{ title }} • MTG Mana Rocks</title>
+		{% if title %}
+		<meta property="og:title" content="{{ title }} • MTG Mana Rocks">
+		<meta name="twitter:title" content="{{ title }} • MTG Mana Rocks">
+		{% endif %}
+		{% if subtitle %}
+		<meta name="description" content="{{ subtitle }}">
+		<meta property="og:description" content="{{ subtitle }}">
+		<meta name="twitter:description" content="{{ subtitle }}">
+		{% endif %}
+		{% if banner %}
+		<meta property="og:image" content="{{ banner }}">
+		<meta name="twitter:image" content="{{ banner }}">
+		{% endif %}
 		<!-- <base href="{{ baseref }}" /> -->
 		<link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuFUGAMFlGgCYmJgA2dnZAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVVVVVVVVVUAAAAAAFVVVQMzM0RAVVVQMxESIkQFVVAxEiIiJAVVUDEiIiUkBVVQMSIiVSQFVVAzNFVVRAVVVQM0RERAVVVVUDNERAVVVVVQM0REBVVVVVAzREQFVVVVUDNERAVVVVVQM0REBVVVVVAAAAAFVVVVVVVVVVVVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
