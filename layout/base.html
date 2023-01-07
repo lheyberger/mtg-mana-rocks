@@ -3,8 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>{{ title }} • MTG Mana Rocks</title>
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@lheybergermtg" />
+		<meta name="twitter:creator" content="@lheybergermtg" />
 		{% if title %}
+		<title>{{ title }} • MTG Mana Rocks</title>
 		<meta property="og:title" content="{{ title }} • MTG Mana Rocks">
 		<meta name="twitter:title" content="{{ title }} • MTG Mana Rocks">
 		{% endif %}
@@ -16,6 +19,9 @@
 		{% if banner %}
 		<meta property="og:image" content="{{ banner }}">
 		<meta name="twitter:image" content="{{ banner }}">
+		{% endif %}
+		{% if permalink %}
+		<meta property="og:url" content="{{ permalink }}" />
 		{% endif %}
 		<!-- <base href="{{ baseref }}" /> -->
 		<link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuFUGAMFlGgCYmJgA2dnZAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVVVVVVVVVUAAAAAAFVVVQMzM0RAVVVQMxESIkQFVVAxEiIiJAVVUDEiIiUkBVVQMSIiVSQFVVAzNFVVRAVVVQM0RERAVVVVUDNERAVVVVVQM0REBVVVVVAzREQFVVVVUDNERAVVVVVQM0REBVVVVVAAAAAFVVVVVVVVVVVVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />
