@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>{{ header }}</title>
+    <title>{{ title }}</title>
     <link href="{{ baseref }}" rel="self" />
     <id>urn:uuid:{{ uuid }}</id>
     <updated>{{ date.strftime("%Y-%m-%dT%H:%M:%SZ") }}</updated>

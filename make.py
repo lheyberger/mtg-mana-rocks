@@ -11,6 +11,7 @@ from PIL import Image
 
 _env = Environment(loader = FileSystemLoader("./layout"))
 
+_name = "MTG Mana Rocks"
 _baseref = "http://mtgmana.rocks/"
 _uuid = "0c9d723f-5560-40cc-a4c9-4d30df31e293"
 _outputdir = posixpath.join(".", "docs")
@@ -33,6 +34,7 @@ def render(target_name, template_name, context):
 
 def build_atom(global_vars, posts):
 	context = {
+		"title" : _name,
 		"uuid" : _uuid,
 		"date" : datetime.datetime.today(),
 		"entries" : [post for post in posts if "draft" not in post.get("tags", [])],
@@ -101,32 +103,34 @@ def build(filter_drafts = True):
 	# build post list
 	for entry in os.listdir("./posts"):
 		tag = os.path.splitext(entry)[0]
-		post = posts.setdefault(tag, {})
+		post = {}
 
 		with open(os.path.join("posts", entry), encoding="utf-8") as f:
 			y, md = sum(re.findall("---(.*?)---(.*)", f.read(), re.M | re.DOTALL), ())
 			post.update(yaml.safe_load(y))
 			post["article"] = markdown.markdown(md, extensions=['tables', 'toc', 'fenced_code'])
 
+		if filter_drafts and 'draft' in post.get('tags', []):
+			continue
+
 		post["date"] = datetime.datetime.strptime(post["date"], "%d/%m/%Y").date()
 		if "edited" in post:
 			post["edited"] = datetime.datetime.strptime(post["edited"], "%d/%m/%Y").date()
-
-		tags.update(post.get("tags"))
 
 		post["tag"] = tag
 		post["uuid"] = uuid.uuid3(uuid.NAMESPACE_DNS, tag)
 		post["url"] = posixpath.join(_baseref, tag + ".html")
 
+		posts[tag] = post
+		tags.update(post.get("tags"))
+
 	global_vars = {
 		"baseref" : _baseref,
-		"keywords" : [ tag[0] for tag in tags.most_common(10) ],
+		"keywords" : sorted([ tag[0] for tag in tags.most_common(10) ]),
 	}
 
 	# sort and filter
 	sorted_list = sorted(posts.values(), key = lambda post: post["date"], reverse = True)
-	if filter_drafts:
-		sorted_list = filter(lambda p: not 'draft' in p['tags'], sorted_list)
 	sorted_list = list(sorted_list)
 
 	# build
