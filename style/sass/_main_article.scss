@@ -1,8 +1,6 @@
 
 article:only-of-type {
 
-	@include link-color($accent-color, $accent-darker-color);
-
 	header {
 		margin: 5em 0;
 		text-align: center;
@@ -59,18 +57,22 @@ article:only-of-type {
 		}
 	}
 
-	> pre {
-		font-family: $code-font;
-		font-size: .83em;
-		line-height: 1.3em;
-		padding: 1em;
-		margin: 1.5em .5em;
-		box-shadow: 0 0 .5em rgba(0, 0, 0, 0.5);
-		background-color: $dark-background;
-		color: $light-text-color;
-		white-space: pre-wrap;
+	> ol {
+		list-style-type: decimal;
+		margin: 0 0 0.75em 2em;
 
-		@include border-radius(1px);
+		li {
+			line-height: 1.5em;
+		}
+	}
+
+	:not(pre) code, pre {
+		font-family: $code-font;
+		font-size: 85%;
+		padding: 0.2em 0.4em;
+		margin: 0;
+		background-color: $light-background;
+		@include border-radius(6px);
 	}
 
 	> footer {
@@ -87,8 +89,8 @@ article:only-of-type {
 
 		p:nth-child(2) a {
 		    font-size: .95em;
-		    background-color: $accent-color;
-		    color: $accent-contrast-color;
+		    background-color: $body-link-color;
+		    color: $body-link-color-contrast;
 		    padding: .1em .4em .1em;
 
 		    @include border-radius(1px);

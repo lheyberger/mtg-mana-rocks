@@ -1,9 +1,9 @@
 ---
 title: Best Selesnya lands
 subtitle: Top 10 mana fixing Selesnya lands for your Commander deck
-date: 05/01/2023
+date: 10/01/2023
 author: Ludovic Heyberger
-tags: [ mtg, edh, selesnya, land ]
+tags: [ top 10, selesnya, land, draft ]
 banner: assets/banner_selesnya_lands.jpg
 ---
 
@@ -100,17 +100,15 @@ Fetch lands are also good targets for recursion spells or abilities like [Brough
 You can also double your fetch land activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
 
-# References
-
 [Brought Back]:https://scryfall.com/search?q=!brought-back
 [Forest]:https://scryfall.com/search?q=!forest
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
-[Manabase]:https://mtg.gamepedia.com/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
 [Plains]:https://scryfall.com/search?q=!plains
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Savannah]:https://scryfall.com/search?q=!savannah
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
-[Scry]:https://mtg.gamepedia.com/Scry
+[Scry]:https://mtg.fandom.com/wiki/Scry
 [Selesnya]:https://mtg.fandom.com/wiki/Selesnya
 [Sevinne's Reclamation]:https://scryfall.com/search?q=!sevinnes-reclamation
 [Sun Titan]:https://scryfall.com/search?q=!sun-titan
@@ -118,20 +116,3 @@ You can also double your fetch land activations with cards like [Rings of Bright
 [Sylvan Library]:https://scryfall.com/search?q=!sylvan_library
 [Windswept Heath]:https://scryfall.com/search?q=!windswept_heath
 [Worldly Tutor]:https://scryfall.com/search?q=!worldly_tutor
-
-* [Brought Back][Brought Back]
-* [Forest][Forest]
-* [Mana Fixing][Mana Fixing]
-* [Manabase][Manabase]
-* [Plains][Plains]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Savannah][Savannah]
-* [Scroll Rack][Scroll Rack]
-* [Scry][Scry]
-* [Selesnya][Selesnya]
-* [Sevinne's Reclamation][Sevinne's Reclamation]
-* [Sun Titan][Sun Titan]
-* [Swords to Plowshares][Swords to Plowshares]
-* [Sylvan Library][Sylvan Library]
-* [Windswept Heath][Windswept Heath]
-* [Worldly Tutor][Worldly Tutor]

@@ -1,9 +1,9 @@
 ---
 title: Best Simic lands
 subtitle: Top 10 mana fixing Simic lands for your Commander deck
-date: 08/01/2023
+date: 13/01/2023
 author: Ludovic Heyberger
-tags: [ mtg, edh, simic, land ]
+tags: [ top 10, simic, land, draft ]
 banner: assets/banner_simic_lands.jpg
 ---
 
@@ -99,36 +99,18 @@ Fetch lands are also good targets for recursion spells or abilities like [Crucib
 You can also double your fetch land activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
 
-# References
-
 [Brainstorm]:https://scryfall.com/search?q=!brainstorm
 [Breeding Pool]:https://scryfall.com/search?q=!breeding-pool
 [Crucible of Worlds]:https://scryfall.com/search?q=!crucible-of-worlds
 [Dispel]:https://scryfall.com/search?q=!dispel
 [Forest]:https://scryfall.com/search?q=!forest
 [Island]:https://scryfall.com/search?q=!island
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
-[Manabase]:https://mtg.gamepedia.com/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
 [Misty Rainforest]:https://scryfall.com/search?q=!misty_rainforest
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
-[Scry]:https://mtg.gamepedia.com/Scry
+[Scry]:https://mtg.fandom.com/wiki/Scry
 [Simic]:https://mtg.fandom.com/wiki/Simic
 [Tropical Island]:https://scryfall.com/search?q=!tropical-island
 [Worldly Tutor]:https://scryfall.com/search?q=!worldly_tutor
-
-* [Brainstorm][Brainstorm]
-* [Breeding Pool][Breeding Pool]
-* [Crucible of Worlds][Crucible of Worlds]
-* [Dispel][Dispel]
-* [Forest][Forest]
-* [Island][Island]
-* [Mana Fixing][Mana Fixing]
-* [Manabase][Manabase]
-* [Misty Rainforest][Misty Rainforest]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Scroll Rack][Scroll Rack]
-* [Scry][Scry]
-* [Simic][Simic]
-* [Tropical Island][Tropical Island]
-* [Worldly Tutor][Worldly Tutor]

@@ -6,6 +6,7 @@ article:not(:only-of-type) {
 	> header {
 
 		> h1 {
+			@include link-color($title-link-color, $title-link-color-hover);
 		    margin:1px;
 		    font-size: 2.7em;
 		    line-height: 150%;
@@ -29,8 +30,6 @@ article:not(:only-of-type) {
 	    background-color: $light-background;
 	    overflow: hidden;
 
-	    @include link-color($accent-color, $accent-darker-color);
-
 		p:nth-child(1) {
 		    float: left;
 		    clear: both;
@@ -42,8 +41,8 @@ article:not(:only-of-type) {
 
 		p:nth-child(2) a {
 		    font-size: .95em;
-		    background-color: $accent-color;
-		    color: $accent-contrast-color;
+		    background-color: $body-link-color;
+		    color: $body-link-color-contrast;
 		    padding: .1em .4em .1em;
 		    border-radius: 1px;
 		}

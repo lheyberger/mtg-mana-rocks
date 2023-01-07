@@ -1,9 +1,9 @@
 ---
 title: Best Dimir lands
 subtitle: Top 10 mana fixing Dimir lands for your Commander deck
-date: 02/01/2023
+date: 07/01/2023
 author: Ludovic Heyberger
-tags: [ mtg, edh, dimir, land ]
+tags: [ top 10, dimir, land, draft ]
 banner: assets/banner_dimir_lands.jpg
 ---
 
@@ -99,36 +99,18 @@ Fetch lands are also good targets for recursion spells or abilities like [Crucib
 You can also double your fetch land activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
 
-# References
-
 [Brainstorm]:https://scryfall.com/search?q=!brainstorm
 [Crucible of Worlds]:https://scryfall.com/search?q=!crucible-of-worlds
 [Dimir]:https://mtg.fandom.com/wiki/Dimir
 [Dispel]:https://scryfall.com/search?q=!dispel
 [Island]:https://scryfall.com/search?q=!island
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
-[Manabase]:https://mtg.gamepedia.com/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
 [Polluted Delta]:https://scryfall.com/search?q=!polluted-delta
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
-[Scry]:https://mtg.gamepedia.com/Scry
+[Scry]:https://mtg.fandom.com/wiki/Scry
 [Swamp]:https://scryfall.com/search?q=!swamp
 [Underground Sea]:https://scryfall.com/search?q=!underground-sea
 [Vampiric Tutor]:https://scryfall.com/search?q=!vampiric-tutor
 [Watery Grave]:https://scryfall.com/search?q=!watery-grave
-
-* [Brainstorm][Brainstorm]
-* [Crucible of Worlds][Crucible of Worlds]
-* [Dimir][Dimir]
-* [Dispel][Dispel]
-* [Island][Island]
-* [Mana Fixing][Mana Fixing]
-* [Manabase][Manabase]
-* [Polluted Delta][Polluted Delta]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Scroll Rack][Scroll Rack]
-* [Scry][Scry]
-* [Swamp][Swamp]
-* [Underground Sea][Underground Sea]
-* [Vampiric Tutor][Vampiric Tutor]
-* [Watery Grave][Watery Grave]

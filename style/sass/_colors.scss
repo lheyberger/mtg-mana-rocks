@@ -1,18 +1,24 @@
-$accent-color: #FC6B35;
-$accent-darker-color: #BA3B0D;
-$accent-contrast-color: #FCF9F4;
+$light-color: #FCF9F4;
+$dark-color: #1A2238;
+$yellow-color: #F4DB7D;
+$tangerine-color: #FF6A3D;
+$tangerine-color-darker: #C5522F;
 
 
 $background-color: white;
-
 $light-background: #F1F0EE;
-$dark-background: #353A3E;
+$dark-text-color: $dark-color;
 
-$accent-background: $accent-color;
-$accent-foreground: $accent-contrast-color;
+$header-background-color: $dark-color;
+$header-link-color: $light-color;
+$header-link-color-hover: $tangerine-color;
 
-$dark-text-color: #353A3E;
-$light-text-color: white;
+$title-link-color: $dark-color;
+$title-link-color-hover: $dark-color;
 
-$dark-link-over: black;
-$light-link-over: #b3b9be;
+$body-link-color: $tangerine-color;
+$body-link-color-hover: $tangerine-color-darker;
+$body-link-color-contrast: $light-color;
+
+$footer-link-color: $dark-color;
+$footer-link-color-hover: $dark-color;

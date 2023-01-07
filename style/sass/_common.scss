@@ -1,6 +1,6 @@
 
 @include link-style();
-@include link-color(inherit, $dark-link-over);
+@include link-color($body-link-color, $body-link-color-hover);
 
 time {
 	margin: 0 .4em;

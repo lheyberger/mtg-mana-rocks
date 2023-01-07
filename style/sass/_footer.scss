@@ -2,6 +2,7 @@
 body {
 
 	> footer {
+		@include link-color($footer-link-color, $footer-link-color-hover);
 		background-color: $light-background;
 		text-align: center;
 		padding: 40px 0;

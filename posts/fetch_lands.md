@@ -1,13 +1,13 @@
 ---
 title: Fetch Lands
 subtitle: Quick guide on how to improve your EDH manabase
-date: 01/08/2019
-edited: 18/12/2022
+date: 05/01/2023
 author: Ludovic Heyberger
-tags: [ draft, mtg, land ]
+tags: [ land, guide, draft ]
+banner: assets/banner_fetch_lands.jpg
 ---
 
-With the exception of [monocolor][Monocolor] commanders, properly building your [manabase][Manabase] can be a real challenge.
+With the exception of [monocolor][Monocolor] commanders, properly building your [manabase][Manabase] can be a real challenge in [EDH][EDH].
 
 Having access to the right color at the right time is key to being able to cast spells.
 
@@ -94,26 +94,21 @@ In a nutshell:
 - And finally, you can double the effect of their activations ([Rings of Brighthearth][Rings of Brighthearth], [Lithoform Engine][Lithoform Engine]).
 
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/lheybergermtg?style=social)](https://twitter.com/intent/follow?screen_name=lheybergermtg)
-
-
-
-# References
-
-[Allied Color]:https://mtg.gamepedia.com/Allied_color
+[Allied Color]:https://mtg.fandom.com/wiki/Allied_color
 [Avenger of Zendikar]:https://scryfall.com/search?q=!avenger-of-zendikar
-[Basic Land]:https://mtg.gamepedia.com/Basic_land
+[Basic Land]:https://mtg.fandom.com/wiki/Basic_land
 [Blighted Woodland]:https://scryfall.com/search?q=!blighted-woodland
 [Brainstorm]:https://scryfall.com/search?q=!brainstorm
 [Brought Back]:https://scryfall.com/search?q=!brought-back
-[Commander Legends: Battle for Baldur's Gate]:https://mtg.fandom.com/wiki/Commander_Legends:_Battle_for_Baldur%27s_Gate
+[Commander Legends: Battle for Baldur's Gate]:https://scryfall.com/sets/clb
 [Delirium]:https://mtg.fandom.com/wiki/Delirium
-[Dual Land]:https://mtg.gamepedia.com/Dual_land
-[Enemy Color]:https://mtg.gamepedia.com/Enemy_color
+[Dual Land]:https://mtg.fandom.com/wiki/Dual_land
+[EDH]:https://mtg.fandom.com/wiki/Commander_(format)
+[Enemy Color]:https://mtg.fandom.com/wiki/Enemy_color
 [Evolving Wilds]:https://scryfall.com/search?q=!evolving-wilds
 [Fabled Passage]:https://scryfall.com/search?q=!fabled-passage
 [Felidar Retreat]:https://scryfall.com/search?q=!felidar-retreat
-[Fetch Lands]:https://mtg.gamepedia.com/Fetch_land
+[Fetch Lands]:https://mtg.fandom.com/wiki/Fetch_land
 [Flagstones of Trokair]:https://scryfall.com/search?q=!flagstones-of-trokair
 [Graveyard]:https://mtg.fandom.com/wiki/Graveyard
 [Krosan Verge]:https://scryfall.com/search?q=!krosan-verge
@@ -121,22 +116,22 @@ In a nutshell:
 [Life from the Loam]:https://scryfall.com/search?q=!life-from-the-loam
 [Lithoform Engine]:https://scryfall.com/search?q=!lithoform-engine
 [Lotus Cobra]:https://scryfall.com/search?q=!lotus-cobra
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
-[Manabase]:https://mtg.gamepedia.com/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
 [Maze's End]:https://scryfall.com/search?q=!mazes-end
-[Mirage]:https://mtg.gamepedia.com/Mirage
-[Monocolor]:https://mtg.gamepedia.com/Monocolor
-[Multicolor]:https://mtg.gamepedia.com/Multicolor
+[Mirage]:https://scryfall.com/sets/mir
+[Monocolor]:https://mtg.fandom.com/wiki/Monocolor
+[Multicolor]:https://mtg.fandom.com/wiki/Multicolor
 [Myriad Landscape]:https://scryfall.com/search?q=!myriad-landscape
-[Onslaught]:https://mtg.fandom.com/wiki/Onslaught
+[Onslaught]:https://scryfall.com/sets/ons
 [Prismatic Vista]:https://scryfall.com/search?q=!prismatic-vista
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
 [Shard]:https://mtg.fandom.com/wiki/Shard
-[Shards of Alara]:https://mtg.fandom.com/wiki/Shards_of_Alara
-[Shock Land]:https://mtg.gamepedia.com/Shock_land
-[Shuffle]:https://mtg.gamepedia.com/Shuffle
-[Streets of New Capenna]:https://mtg.fandom.com/wiki/Streets_of_New_Capenna
+[Shards of Alara]:https://scryfall.com/sets/ala
+[Shock Land]:https://mtg.fandom.com/wiki/Shock_land
+[Shuffle]:https://mtg.fandom.com/wiki/Shuffle
+[Streets of New Capenna]:https://scryfall.com/sets/snc
 [Sun Titan]:https://scryfall.com/search?q=!sun-titan
 [Sylvan Library]:https://scryfall.com/search?q=!sylvan-library
 [Terminal Moraine]:https://scryfall.com/search?q=!terminal-moraine
@@ -144,49 +139,4 @@ In a nutshell:
 [Thawing Glaciers]:https://scryfall.com/search?q=!thawing-glaciers
 [Threshold]:https://mtg.fandom.com/wiki/Threshold
 [Warped Landscape]:https://scryfall.com/search?q=!warped-landscape
-[Zendikar]:https://mtg.gamepedia.com/Zendikar
-
-* [Allied Color][Allied Color]
-* [Avenger of Zendikar][Avenger of Zendikar]
-* [Basic Land][Basic Land]
-* [Blighted Woodland][Blighted Woodland]
-* [Brainstorm][Brainstorm]
-* [Brought Back][Brought Back]
-* [Commander Legends: Battle for Baldur's Gate][Commander Legends: Battle for Baldur's Gate]
-* [Delirium][Delirium]
-* [Dual Land][Dual Land]
-* [Enemy Color][Enemy Color]
-* [Evolving Wilds][Evolving Wilds]
-* [Fabled Passage][Fabled Passage]
-* [Felidar Retreat][Felidar Retreat]
-* [Fetch Lands][Fetch Lands]
-* [Flagstones of Trokair][Flagstones of Trokair]
-* [Graveyard][Graveyard]
-* [Krosan Verge][Krosan Verge]
-* [Landfall][Landfall]
-* [Life from the Loam][Life from the Loam]
-* [Lithoform Engine][Lithoform Engine]
-* [Lotus Cobra][Lotus Cobra]
-* [Mana Fixing][Mana Fixing]
-* [Manabase][Manabase]
-* [Maze's End][Maze's End]
-* [Mirage][Mirage]
-* [Monocolor][Monocolor]
-* [Multicolor][Multicolor]
-* [Myriad Landscape][Myriad Landscape]
-* [Onslaught][Onslaught]
-* [Prismatic Vista][Prismatic Vista]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Scroll Rack][Scroll Rack]
-* [Shards of Alara][Shards of Alara]
-* [Shock Land][Shock Land]
-* [Shuffle][Shuffle]
-* [Streets of New Capenna][Streets of New Capenna]
-* [Sun Titan][Sun Titan]
-* [Sylvan Library][Sylvan Library]
-* [Terminal Moraine][Terminal Moraine]
-* [Terramorphic Expanse][Terramorphic Expanse]
-* [Thawing Glaciers][Thawing Glaciers]
-* [Threshold][Threshold]
-* [Warped Landscape][Warped Landscape]
-* [Zendikar][Zendikar]
+[Zendikar]:https://scryfall.com/sets/zen

@@ -1,9 +1,9 @@
 ---
 title: Best Izzet lands
 subtitle: Top 10 mana fixing Izzet lands for your Commander deck
-date: 09/01/2023
+date: 14/01/2023
 author: Ludovic Heyberger
-tags: [ mtg, edh, izzet, land ]
+tags: [ top 10, izzet, land, draft ]
 banner: assets/banner_izzet_lands.jpg
 ---
 
@@ -97,34 +97,17 @@ Cracking a fetch land and shuffling your library is also what makes it so good. 
 You can also double your fetch land activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
 
-# References
-
 [Brainstorm]:https://scryfall.com/search?q=!brainstorm
 [Dispel]:https://scryfall.com/search?q=!dispel
 [Island]:https://scryfall.com/search?q=!island
 [Izzet]:https://mtg.fandom.com/wiki/Izzet
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
-[Manabase]:https://mtg.gamepedia.com/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
 [Mountain]:https://scryfall.com/search?q=!mountain
 [Pyroblast]:https://scryfall.com/search?q=!pyroblast
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Scalding Tarn]:https://scryfall.com/search?q=!scalding-tarn
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
-[Scry]:https://mtg.gamepedia.com/Scry
+[Scry]:https://mtg.fandom.com/wiki/Scry
 [Steam Vents]:https://scryfall.com/search?q=!steam-vents
 [Volcanic Island]:https://scryfall.com/search?q=!volcanic-island
-
-* [Brainstorm][Brainstorm]
-* [Dispel][Dispel]
-* [Island][Island]
-* [Izzet][Izzet]
-* [Mana Fixing][Mana Fixing]
-* [Manabase][Manabase]
-* [Mountain][Mountain]
-* [Pyroblast][Pyroblast]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Scalding Tarn][Scalding Tarn]
-* [Scroll Rack][Scroll Rack]
-* [Scry][Scry]
-* [Steam Vents][Steam Vents]
-* [Volcanic Island][Volcanic Island]

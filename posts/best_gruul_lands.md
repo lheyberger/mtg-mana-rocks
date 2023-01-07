@@ -1,9 +1,9 @@
 ---
 title: Best Gruul lands
 subtitle: Top 10 mana fixing Gruul lands for your Commander deck
-date: 04/01/2023
+date: 09/01/2023
 author: Ludovic Heyberger
-tags: [ mtg, edh, gruul, land ]
+tags: [ top 10, gruul, land, draft ]
 banner: assets/banner_gruul_lands.jpg
 ---
 
@@ -99,34 +99,17 @@ Fetch lands are also good targets for recursion spells or abilities like [Crucib
 You can also double your fetch land activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
 
-# References
-
 [Crucible of Worlds]:https://scryfall.com/search?q=!crucible-of-worlds
 [Forest]:https://scryfall.com/search?q=!forest
 [Gruul]:https://mtg.fandom.com/wiki/Gruul
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
-[Manabase]:https://mtg.gamepedia.com/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
 [Mountain]:https://scryfall.com/search?q=!mountain
 [Pyroblast]:https://scryfall.com/search?q=!pyroblast
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
-[Scry]:https://mtg.gamepedia.com/Scry
+[Scry]:https://mtg.fandom.com/wiki/Scry
 [Stomping Ground]:https://scryfall.com/search?q=!stomping-ground
 [Taiga]:https://scryfall.com/search?q=!taiga
 [Wooded Foothills]:https://scryfall.com/search?q=!wooded-foothills
 [Worldly Tutor]:https://scryfall.com/search?q=!worldly-tutor
-
-* [Crucible of Worlds][Crucible of Worlds]
-* [Forest][Forest]
-* [Gruul][Gruul]
-* [Mana Fixing][Mana Fixing]
-* [Manabase][Manabase]
-* [Mountain][Mountain]
-* [Pyroblast][Pyroblast]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Scroll Rack][Scroll Rack]
-* [Scry][Scry]
-* [Stomping Ground][Stomping Ground]
-* [Taiga][Taiga]
-* [Wooded Foothills][Wooded Foothills]
-* [Worldly Tutor][Worldly Tutor]

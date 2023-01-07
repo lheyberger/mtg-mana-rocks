@@ -1,9 +1,9 @@
 ---
 title: Best Boros lands
 subtitle: Top 10 mana fixing Boros lands for your Commander deck
-date: 10/01/2023
+date: 15/01/2023
 author: Ludovic Heyberger
-tags: [ mtg, edh, boros, land ]
+tags: [ top 10, boros, land, draft ]
 banner: assets/banner_boros_lands.jpg
 ---
 
@@ -99,13 +99,11 @@ Fetch lands are also good targets for recursion spells or abilities like [Brough
 You can also double your fetch land activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
 
-# References
-
 [Arid Mesa]:https://scryfall.com/search?q=!arid-mesa
-[Boros]:https://mtg.gamepedia.com/Boros_Legion
+[Boros]:https://mtg.fandom.com/wiki/Boros_Legion
 [Brought Back]:https://scryfall.com/search?q=!brought-back
-[Manabase]:https://mtg.gamepedia.com/Mana_base
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
 [Mountain]:https://scryfall.com/search?q=!mountain
 [Plains]:https://scryfall.com/search?q=!plains
 [Plateau]:https://scryfall.com/search?q=!plateau
@@ -113,24 +111,7 @@ You can also double your fetch land activations with cards like [Rings of Bright
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Sacred Foundry]:https://scryfall.com/search?q=!sacred-foundry
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
-[Scry]:https://mtg.gamepedia.com/Scry
+[Scry]:https://mtg.fandom.com/wiki/Scry
 [Sevinne's Reclamation]:https://scryfall.com/search?q=!sevinnes-reclamation
 [Sun Titan]:https://scryfall.com/search?q=!sun-titan
 [Swords to Plowshares]:https://scryfall.com/search?q=!swords-to-plowshares
-
-* [Aris Mesa][Arid Mesa]
-* [Boros][Boros]
-* [Brought Back][Brought Back]
-* [Manabase][Manabase]
-* [Mana Fixing][Mana Fixing]
-* [Mountain][Mountain]
-* [Plains][Plains]
-* [Plateau][Plateau]
-* [Pyroblast][Pyroblast]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Sacred Foundry][Sacred Foundry]
-* [Scroll Rack][Scroll Rack]
-* [Scry][Scry]
-* [Sevinne's Reclamation][Sevinne's Reclamation]
-* [Sun Titan][Sun Titan]
-* [Swords to Plowshares][Swords to Plowshares]

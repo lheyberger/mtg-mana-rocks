@@ -1,9 +1,9 @@
 ---
 title: Best Azorius lands
 subtitle: Top 10 mana fixing Azorius lands for your Commander deck
-date: 01/01/2023
+date: 06/01/2023
 author: Ludovic Heyberger
-tags: [ mtg, edh, azorius, land ]
+tags: [ top 10, azorius, land, draft ]
 banner: assets/banner_azorius_lands.jpg
 ---
 
@@ -99,8 +99,6 @@ Fetch lands are also good targets for recursion spells or abilities like [Brough
 You can also double your fetch land activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
 
-# References
-
 [Azorius]:https://mtg.fandom.com/wiki/Azorius
 [Brainstorm]:https://scryfall.com/search?q=!brainstorm
 [Brought Back]:https://scryfall.com/search?q=!brought-back
@@ -108,31 +106,13 @@ You can also double your fetch land activations with cards like [Rings of Bright
 [Flooded Strand]:https://scryfall.com/search?q=!flooded-strand
 [Hallowed Fountain]:https://scryfall.com/search?q=!hallowed-fountain
 [Island]:https://scryfall.com/search?q=!island
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
-[Manabase]:https://mtg.gamepedia.com/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
 [Plains]:https://scryfall.com/search?q=!plains
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
-[Scry]:https://mtg.gamepedia.com/Scry
+[Scry]:https://mtg.fandom.com/wiki/Scry
 [Sevinne's Reclamation]:https://scryfall.com/search?q=!sevinnes-reclamation
 [Sun Titan]:https://scryfall.com/search?q=!sun-titan
 [Swords to Plowshares]:https://scryfall.com/search?q=!swords-to-plowshares
 [Tundra]:https://scryfall.com/search?q=!tundra
-
-* [Azorius][Azorius]
-* [Brainstorm][Brainstorm]
-* [Brought Back][Brought Back]
-* [Dispel][Dispel]
-* [Flooded Strand][Flooded Strand]
-* [Hallowed Fountain][Hallowed Fountain]
-* [Island][Island]
-* [Mana Fixing][Mana Fixing]
-* [Manabase][Manabase]
-* [Plains][Plains]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Scroll Rack][Scroll Rack]
-* [Scry][Scry]
-* [Sevinne's Reclamation][Sevinne's Reclamation]
-* [Sun Titan][Sun Titan]
-* [Swords to Plowshares][Swords to Plowshares]
-* [Tundra][Tundra]

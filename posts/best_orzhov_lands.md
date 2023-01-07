@@ -1,9 +1,9 @@
 ---
 title: Best Orzhov lands
 subtitle: Top 10 mana fixing Orzhov lands for your Commander deck
-date: 06/01/2023
+date: 11/01/2023
 author: Ludovic Heyberger
-tags: [ mtg, edh, orzhov, land ]
+tags: [ top 10, orzhov, land, draft ]
 banner: assets/banner_orzhov_lands.jpg
 ---
 
@@ -99,38 +99,19 @@ Fetch lands are also good targets for recursion spells or abilities like [Brough
 You can also double your fetch land activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
 
-# References
-
 [Brought Back]:https://scryfall.com/search?q=!brought-back
 [Godless Shrine]:https://scryfall.com/search?q=!godless-shrine
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
-[Manabase]:https://mtg.gamepedia.com/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
 [Marsh Flats]:https://scryfall.com/search?q=!marsh-flats
 [Orzhov]:https://mtg.fandom.com/wiki/Orzhov_Syndicate
 [Plains]:https://scryfall.com/search?q=!plains
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
 [Scrubland]:https://scryfall.com/search?q=!scrubland
-[Scry]:https://mtg.gamepedia.com/Scry
+[Scry]:https://mtg.fandom.com/wiki/Scry
 [Sevinne's Reclamation]:https://scryfall.com/search?q=!sevinnes-reclamation
 [Sun Titan]:https://scryfall.com/search?q=!sun-titan
 [Swamp]:https://scryfall.com/search?q=!swamp
 [Swords to Plowshares]:https://scryfall.com/search?q=!swords-to-plowshares
 [Vampiric Tutor]:https://scryfall.com/search?q=!vampiric-tutor
-
-* [Brought Back][Brought Back]
-* [Godless Shrine][Godless Shrine]
-* [Mana Fixing][Mana Fixing]
-* [Manabase][Manabase]
-* [Marsh Flats][Marsh Flats]
-* [Orzhov][Orzhov]
-* [Plains][Plains]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Scroll Rack][Scroll Rack]
-* [Scrubland][Scrubland]
-* [Scry][Scry]
-* [Sevinne's Reclamation][Sevinne's Reclamation]
-* [Sun Titan][Sun Titan]
-* [Swamp][Swamp]
-* [Swords to Plowshares][Swords to Plowshares]
-* [Vampiric Tutor][Vampiric Tutor]

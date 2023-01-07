@@ -1,3 +1,5 @@
 markdown
+Pillow
 pyyaml
 Jinja2
+click

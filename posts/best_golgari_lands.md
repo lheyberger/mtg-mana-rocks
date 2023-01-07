@@ -1,9 +1,9 @@
 ---
 title: Best Golgari lands
 subtitle: Top 10 mana fixing Golgari lands for your Commander deck
-date: 07/01/2023
+date: 12/01/2023
 author: Ludovic Heyberger
-tags: [ mtg, edh, golgari, land ]
+tags: [ top 10, golgari, land, draft ]
 banner: assets/banner_golgari_lands.jpg
 ---
 
@@ -99,36 +99,18 @@ Fetch lands are also good targets for recursion spells or abilities like [Crucib
 You can also double your fetch land activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
 
-# References
-
 [Bayou]:https://scryfall.com/search?q=!bayou
 [Crucible of Worlds]:https://scryfall.com/search?q=!crucible-of-worlds
 [Forest]:https://scryfall.com/search?q=!forest
 [Golgari]:https://mtg.fandom.com/wiki/Golgari
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
-[Manabase]:https://mtg.gamepedia.com/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
 [Overgrown Tomb]:https://scryfall.com/search?q=!overgrown-tomb
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
-[Scry]:https://mtg.gamepedia.com/Scry
+[Scry]:https://mtg.fandom.com/wiki/Scry
 [Swamp]:https://scryfall.com/search?q=!swamp
 [Sylvan Library]:https://scryfall.com/search?q=!sylvan-library
 [Vampiric Tutor]:https://scryfall.com/search?q=!vampiric-tutor
 [Verdant Catacombs]:https://scryfall.com/search?q=!verdant-catacombs
 [Worldly Tutor]:https://scryfall.com/search?q=!worldly-tutor
-
-* [Bayou][Bayou]
-* [Crucible of Worlds][Crucible of Worlds]
-* [Forest][Forest]
-* [Golgari][Golgari]
-* [Mana Fixing][Mana Fixing]
-* [Manabase][Manabase]
-* [Overgrown Tomb][Overgrown Tomb]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Scroll Rack][Scroll Rack]
-* [Scry][Scry]
-* [Swamp][Swamp]
-* [Sylvan Library][Sylvan Library]
-* [Vampiric Tutor][Vampiric Tutor]
-* [Verdant Catacombs][Verdant Catacombs]
-* [Worldly Tutor][Worldly Tutor]

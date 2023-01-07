@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import datetime, markdown, os, posixpath, re, string, yaml, uuid, shutil, stat, subprocess
+import click, datetime, markdown, os, posixpath, re, string, yaml, uuid, shutil, stat, subprocess
 from collections import Counter
 from pprint import pprint
 from jinja2 import Environment, FileSystemLoader
+from typing import List
+from PIL import Image
+
 
 _env = Environment(loader = FileSystemLoader("./layout"))
 
@@ -12,6 +15,9 @@ _baseref = "http://mtgmana.rocks/"
 _uuid = "0c9d723f-5560-40cc-a4c9-4d30df31e293"
 _outputdir = posixpath.join(".", "docs")
 _todeploy = [ "./style/style.css" ]
+
+_assets_dir = posixpath.join(".", "docs", "assets")
+_posts_dir = posixpath.join(".", "posts")
 
 def createdir(dirname):
 	if not os.path.exists(dirname):
@@ -88,7 +94,7 @@ def deploy(src, dst):
 		for f in os.listdir(src):
 			copyfile(join(src, f), join(dst, f))
 
-def main(filter_drafts = True):
+def build(filter_drafts = True):
 	posts = {}
 	tags = Counter()
 
@@ -100,7 +106,7 @@ def main(filter_drafts = True):
 		with open(os.path.join("posts", entry), encoding="utf-8") as f:
 			y, md = sum(re.findall("---(.*?)---(.*)", f.read(), re.M | re.DOTALL), ())
 			post.update(yaml.safe_load(y))
-			post["article"] = markdown.markdown(md)
+			post["article"] = markdown.markdown(md, extensions=['tables', 'toc', 'fenced_code'])
 
 		post["date"] = datetime.datetime.strptime(post["date"], "%d/%m/%Y").date()
 		if "edited" in post:
@@ -135,5 +141,101 @@ def main(filter_drafts = True):
 	for target in _todeploy:
 		deploy(target, _outputdir)
 
-if __name__ == "__main__":
-	main(False)
+
+def list_dir(path: str, extensions: List[str]):
+	for entry in os.listdir(path):
+
+		root, ext = os.path.splitext(entry)
+		if ext.lower() not in extensions:
+			continue
+
+		yield posixpath.join(path, entry)
+
+def load_post(baseref: str, path: str):
+	tag = os.path.splitext(path)[0]
+	post = {
+		'uuid': uuid.uuid3(uuid.NAMESPACE_DNS, tag),
+		'url': posixpath.join(baseref, tag + '.html'),
+	}
+	with open(path, encoding='utf-8') as f:
+		y, md = sum(re.findall(r'---(.*?)---(.*)', f.read(), re.M | re.DOTALL), ())
+
+	post.update(yaml.safe_load(y))
+	post['raw_article'] = md
+	post['article'] = markdown.markdown(md)
+	post['date'] = datetime.datetime.strptime(post['date'], '%d/%m/%Y').date()
+	if 'edited' in post:
+		post['edited'] = datetime.datetime.strptime(post['edited'], '%d/%m/%Y').date()
+
+	for resource_name, resource_path in re.findall(r'\!\[(.*?)\]\((.*?)\)', post['raw_article'], re.M|re.DOTALL):
+		post.setdefault('images', {})[resource_name] = resource_path
+
+	for reference in re.findall(r'[^\!]\[(.*?)\]\[\1\]', post['raw_article'], re.M|re.DOTALL):
+		post.setdefault('references', set()).add(reference)
+
+	for link_name, link_url in re.findall(r'\[(.*?)\]\:(http.*?)$', post['raw_article'], re.M|re.DOTALL):
+		post.setdefault('links', {})[link_name] = link_url
+
+	return post
+
+def command_optimize(assets_dir: str, max_width: int, compression_level: int, dry_run: bool):
+	print(assets_dir, max_width, compression_level, dry_run)
+
+	assets = list_dir(assets_dir, [ '.png', '.jpg', '.jpeg' ])
+
+	for path in assets:
+
+		print('🖼️ ', path)
+
+		with Image.open(path) as img:
+			width, height = img.size
+
+			# Skip images that have already been optimized
+			if width <= max_width:
+				continue
+
+			# Resize
+			img.thumbnail((max_width, max_width))
+
+			# Save
+			if dry_run:
+				root, ext = os.path.splitext(path)
+				path = root + '_dry' + ext
+
+			print('💾', path)
+			img.save(path, 'JPEG', quality=compression_level)
+
+def command_check(assets_dir: str, posts_dir: str):
+	from pprint import pprint
+
+	assets = list(list_dir(assets_dir, [ '.png', '.jpg', '.jpeg' ]))
+
+	for path in list_dir(posts_dir, [ '.md', '.markdown' ]):
+		post = load_post(_baseref, path)
+		print(post['url'])
+		pprint(post)
+		break
+
+@click.group()
+def make():
+    pass
+
+@make.command(name='check')
+def make_check():
+	print('🔍', 'make_check')
+	command_check(_assets_dir, _posts_dir)
+
+@make.command(name='build')
+def make_build():
+	print('🏗️ ', 'make_build')
+
+@make.command(name="optimize")
+@click.option('-w', '--max-width', type=int, default=1000)
+@click.option('-c', '--compression-level', type=int, default=95)
+@click.option('-d', '--dry-run/--no-dry-run', default=False)
+def make_optimize(max_width: int, compression_level: int, dry_run: bool):
+	print('🏎️ ', 'make_optimize')
+	command_optimize(_assets_dir, max_width, compression_level, dry_run)
+
+if __name__ == '__main__':
+	build(True)

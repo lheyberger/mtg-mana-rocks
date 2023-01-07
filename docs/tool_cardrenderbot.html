@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MTG Tools - Card Render Bot • MTG Mana Rocks</title>
+		<!-- <base href="http://mtgmana.rocks/" /> -->
+		<link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuFUGAMFlGgCYmJgA2dnZAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVVVVVVVVVUAAAAAAFVVVQMzM0RAVVVQMxESIkQFVVAxEiIiJAVVUDEiIiUkBVVQMSIiVSQFVVAzNFVVRAVVVQM0RERAVVVVUDNERAVVVVVQM0REBVVVVVAzREQFVVVVUDNERAVVVVVQM0REBVVVVVAAAAAFVVVVVVVVVVVVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="alternate" type="application/atom+xml" href="feed.atom" />
+		<meta name="keywords" content="draft, land, top 10, guide, tools, orzhov, boros, izzet, selesnya, rakdos">
+		<meta name="Author" content="Ludovic Heyberger" />
+		<script src="https://getinsights.io/js/insights.js"></script>
+		<script>insights.init('mF3zO77fmKAsEhtu');insights.trackPages();</script>
+	</head>
+	<body>
+		<header>
+			<h1><a href="./index.html">MTG Mana Rocks</a></h1>
+			<nav>
+				<ul>
+					<li><a href="./archives.html">Archives</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="https://twitter.com/lheybergermtg">Twitter</a></li>
+					<li><a href="./feed.atom">Atom</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			
+<article>
+	<header>
+		<h1>MTG Tools - Card Render Bot</h1>
+		<h2>Beautiful renders of your favorite cards</h2>
+		<img alt="MTG Tools - Card Render Bot" src="assets/banner_card_render_bot.jpg" />
+	</header>
+	<p>I've always found ugly how Twitter displayed Magic the Gathering™ card pictures.</p>
+<p>This is why I went on an <a href="https://scryfall.com/search?q=!expedition-map">expedition</a> to fix that and created a dedicated card rendering chatbot available through <a href="https://m.me/108575720841085">Messenger</a> and <a href="https://t.me/cardrenderbot">Telegram</a>.</p>
+<h1 id="usage">Usage</h1>
+<p>ℹ️ This bot is <strong>publicly available and free to use</strong>.</p>
+<h2 id="facebook-messenger">Facebook Messenger</h2>
+<ol>
+<li>Open Facebook Messenger</li>
+<li>Start a new discussion by navigating to <a href="https://m.me/108575720841085">https://m.me/108575720841085</a></li>
+<li>Press the <code>Get Started</code> button</li>
+</ol>
+<h2 id="telegram">Telegram</h2>
+<ol>
+<li>Open Telegram</li>
+<li>Start a new discussion by navigating to <a href="https://t.me/cardrenderbot">https://t.me/cardrenderbot</a></li>
+<li>Press the <code>Start</code> button</li>
+</ol>
+<h1 id="simple-examples">Simple examples</h1>
+<h2 id="1-single-card">1. Single card</h2>
+<p>You can render a single card by typing it's full name:</p>
+<p><strong>💡 Example :</strong></p>
+<pre><code>arcane signet
+</code></pre>
+<p><strong>Result :</strong>
+<img alt="Arcane Signet" src="assets/arcane_signet.jpg" /></p>
+<p>You can also type only part of the full name if there's no ambiguity:</p>
+<p><strong>💡 Example :</strong></p>
+<pre><code>wrath god
+</code></pre>
+<p><strong>Result :</strong>
+<img alt="Wrath of God" src="assets/wrath_of_god.jpg" /></p>
+<h2 id="2-single-card-from-a-specific-set">2. Single card from a specific set</h2>
+<p>If you want to render a card from a specific set, you can prefix the name with the set code.</p>
+<p>The following example will render <a href="https://scryfall.com/card/mps/16/mana-crypt">Mana Crypt</a> from the <a href="https://scryfall.com/sets/mps">Kaladesh Inventions</a> set:</p>
+<p><strong>💡 Example :</strong></p>
+<pre><code>mps mana crypt
+</code></pre>
+<p><strong>Result :</strong>
+<img alt="Mana Crypt" src="assets/mana_crypt.jpg" /></p>
+<h2 id="3-specific-card-from-a-specific-set">3. Specific card from a specific set</h2>
+<p>Some sets contain cards with different illustrations.
+If you want a specific card, you can specify the set code and the collector number.</p>
+<p>The following example will render the <a href="https://scryfall.com/card/dmu/262/plains">basic Plains</a> from the <a href="https://scryfall.com/sets/dmu">Dominaria United</a> set:</p>
+<p><strong>💡 Example :</strong></p>
+<pre><code>dmu plains
+</code></pre>
+<p><strong>Result :</strong>
+<img alt="Basic Plains" src="assets/dmu_262.jpg" /></p>
+<p>The following example will render the <a href="https://scryfall.com/card/dmu/277/plains">full art Plains</a> from the <a href="https://scryfall.com/sets/dmu">Dominaria United</a> set:</p>
+<p><strong>💡 Example :</strong></p>
+<pre><code>dmu 277
+</code></pre>
+<p><strong>Result :</strong>
+<img alt="Full Art Plains" src="assets/dmu_277.jpg" /></p>
+<h1 id="advanced-examples">Advanced examples</h1>
+<h2 id="1-two-cards-side-by-side">1. Two cards, side by side</h2>
+<p>If you want to render two cards, side by side, just type two queries on two lines:</p>
+<p><strong>💡 Example :</strong></p>
+<pre><code>Thrasios, Triton Hero
+Tymna the Weaver
+</code></pre>
+<p><strong>Result :</strong>
+<img alt="Thrasios / Tymna" src="assets/thrasios_tymna.jpg" /></p>
+<h2 id="2-two-cards-combo">2. Two-cards combo</h2>
+<p>If you want to render a two-cards combo, you can seperate the two queries by the <code>+</code> sign:</p>
+<p><strong>💡 Example :</strong></p>
+<pre><code>Demonic Consultation + Thassa Oracle
+</code></pre>
+<p><strong>Result :</strong>
+<img alt="Demonic Consultation + Thassa's Oracle" src="assets/demonic_consultation_thassa_oracle.jpg" /></p>
+<h2 id="3-two-cards-battles">3. Two-cards battles</h2>
+<p>If you want to render a battle between two cards, you can seperate the two queries by the <code>vs</code> sign:</p>
+<p><strong>💡 Example :</strong></p>
+<pre><code>Esper Sentinel vs Rhystic Study
+</code></pre>
+<p><strong>Result :</strong>
+<img alt="Esper Sentinel vs Rhystic Study" src="assets/esper_sentinel_rhystic_study.jpg" /></p>
+<h2 id="4-three-four-and-five-cards-hands">4. Three, four and five cards hands</h2>
+<p>If you want to render up to five cards, just type the queries on seperate lines:</p>
+<p><strong>💡 Example :</strong></p>
+<pre><code>bro 278
+bro 280
+bro 282
+bro 285
+bro 286
+</code></pre>
+<p><strong>Result :</strong>
+<img alt="The Brother's War Lands" src="assets/bro_lands.jpg" /></p>
+<h1 id="closing-words">Closing Words</h1>
+<p>If you like it or want to be kept up to date, consider supporting me by:</p>
+<ul>
+<li>Following <a href="https://twitter.com/intent/follow?screen_name=lheybergermtg">me</a></li>
+<li>Subscribing to the <a href="./feed.atom">Atom feed</a></li>
+</ul>
+	<footer>
+		<p>
+			<a href="http://mtgmana.rocks/tool_cardrenderbot.html">Permalink</a>
+			<time datetime="2023-01-02">January 02, 2023</time>
+			
+		</p>
+		
+		<p>
+			<a href="archives.html#guide">guide</a> <a href="archives.html#tools">tools</a>
+		</p>
+		
+		
+		<nav>
+			<h1>Previous post</h1>
+			<ul>
+			
+				<li><a href="about.html">About</a></li>
+			
+			</ul>
+		</nav>
+		
+	</footer>
+</article>
+
+		</main>
+		<footer><a href="https://twitter.com/lheybergermtg">Ludovic Heyberger</a></footer>
+	</body>
+</html>

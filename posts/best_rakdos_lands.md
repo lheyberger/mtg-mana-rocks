@@ -1,9 +1,9 @@
 ---
 title: Best Rakdos lands
 subtitle: Top 10 mana fixing Rakdos lands for your Commander deck
-date: 03/01/2023
+date: 08/01/2023
 author: Ludovic Heyberger
-tags: [ mtg, edh, rakdos, land ]
+tags: [ top 10, rakdos, land, draft ]
 banner: assets/banner_rakdos_lands.jpg
 ---
 
@@ -99,34 +99,17 @@ Fetch lands are also good targets for recursion spells or abilities like [Crucib
 You can also double your fetch land activations with cards like [Rings of Brighthearth][Rings of Brighthearth].
 
 
-# References
-
 [Badlands]:https://scryfall.com/search?q=!badlands
 [Blood Crypt]:https://scryfall.com/search?q=!blood-crypt
 [Bloodstained Mire]:https://scryfall.com/search?q=!bloodstained-mire
 [Crucible of Worlds]:https://scryfall.com/search?q=!crucible-of-worlds
-[Mana Fixing]:https://mtg.gamepedia.com/Mana_fixing
-[Manabase]:https://mtg.gamepedia.com/Mana_base
+[Mana Fixing]:https://mtg.fandom.com/wiki/Mana_fixing
+[Manabase]:https://mtg.fandom.com/wiki/Mana_base
 [Mountain]:https://scryfall.com/search?q=!mountain
 [Pyroblast]:https://scryfall.com/search?q=!pyroblast
 [Rakdos]:https://mtg.fandom.com/wiki/Rakdos
 [Rings of Brighthearth]:https://scryfall.com/search?q=!rings-of-brighthearth
 [Scroll Rack]:https://scryfall.com/search?q=!scroll-rack
-[Scry]:https://mtg.gamepedia.com/Scry
+[Scry]:https://mtg.fandom.com/wiki/Scry
 [Swamp]:https://scryfall.com/search?q=!swamp
 [Vampiric Tutor]:https://scryfall.com/search?q=!vampiric-tutor
-
-* [Badlands][Badlands]
-* [Blood Crypt][Blood Crypt]
-* [Bloodstained Mire][Bloodstained Mire]
-* [Crucible of Worlds][Crucible of Worlds]
-* [Mana Fixing][Mana Fixing]
-* [Manabase][Manabase]
-* [Mountain][Mountain]
-* [Pyroblast][Pyroblast]
-* [Rakdos][Rakdos]
-* [Rings of Brighthearth][Rings of Brighthearth]
-* [Scroll Rack][Scroll Rack]
-* [Scry][Scry]
-* [Swamp][Swamp]
-* [Vampiric Tutor][Vampiric Tutor]

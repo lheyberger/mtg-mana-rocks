@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>MTG Tools - EDHRank • MTG Mana Rocks</title>
+		<!-- <base href="http://mtgmana.rocks/" /> -->
+		<link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuFUGAMFlGgCYmJgA2dnZAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVVVVVVVVVVVVUAAAAAAFVVVQMzM0RAVVVQMxESIkQFVVAxEiIiJAVVUDEiIiUkBVVQMSIiVSQFVVAzNFVVRAVVVQM0RERAVVVVUDNERAVVVVVQM0REBVVVVVAzREQFVVVVUDNERAVVVVVQM0REBVVVVVAAAAAFVVVVVVVVVVVVUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="alternate" type="application/atom+xml" href="feed.atom" />
+		<meta name="keywords" content="draft, land, top 10, guide, tools, orzhov, boros, izzet, selesnya, rakdos">
+		<meta name="Author" content="Ludovic Heyberger" />
+		<script src="https://getinsights.io/js/insights.js"></script>
+		<script>insights.init('mF3zO77fmKAsEhtu');insights.trackPages();</script>
+	</head>
+	<body>
+		<header>
+			<h1><a href="./index.html">MTG Mana Rocks</a></h1>
+			<nav>
+				<ul>
+					<li><a href="./archives.html">Archives</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="https://twitter.com/lheybergermtg">Twitter</a></li>
+					<li><a href="./feed.atom">Atom</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			
+<article>
+	<header>
+		<h1>MTG Tools - EDHRank</h1>
+		<h2>A fun and automated way to evaluate your deck's power level</h2>
+		<img alt="MTG Tools - EDHRank" src="assets/banner_edhrank.jpg" />
+	</header>
+	<p><a href="http://mtgcommander.net">Commander</a> decks power levels are an infinite source of <a href="https://boardgames.stackexchange.com/questions/48535/how-to-calculate-the-power-level-of-a-commander-deck">discussions</a> both online and offline within your playgroup.</p>
+<h1 id="the-commander-power-level-chart">The Commander Power Level Chart</h1>
+<p>This is probably the most widely accepted way to rank an EDH deck. The scale goes from 1 to 10 (1 being just a pile of cards while 10 is reserved for the most competitive decks).</p>
+<p>Lot of resources are explaining this power scale and try to help you rank your deck against this power scale:</p>
+<ul>
+<li><a href="https://mtgrocks.com/how-to-assess-an-mtg-commander-power-level/">MTG Rocks | How to Assess an MTG Commander Power Level</a></li>
+<li><a href="https://youtu.be/mgGm_74Lc9M">The Command Zone #295 | How to Determine Your Deck’s Power Level</a></li>
+<li><a href="https://youtu.be/nRZxpGDS1zI">The Nitpicking Nerds Power Level Scale (1-10) | How Strong is your Commander Deck?</a></li>
+<li><a href="https://www.wizardtower.com/blog/commander/edh-deck-building-understanding-power-level/">Wizard Tower | EDH Deck Building: Understanding Power Level</a></li>
+</ul>
+<h1 id="other-ranking-methods">Other Ranking Methods</h1>
+<p>The Commander Power Level Chart has been a controversial topic, with some proposing alternative ranking methods.</p>
+<ul>
+<li>
+<p><a href="https://www.wizardtower.com/blog/commander/power-level-in-commander/">WizardTower | Power Level in Commander</a>
+  This article suggests considering the overall structure of your deck and examining factors such as board impact, strictly better alternatives, optimal mana cost, versatility, efficiency, and combo potential.
+  It also suggests ranking your individual decks according to categories such as casual, middle ground, and CEDH.</p>
+</li>
+<li>
+<p><a href="https://www.candlekeep.co.uk/magic-the-gathering/power-level-in-magic-the-gathering-commander">Candlekeep | Power Level in Magic the Gathering : Commander</a>
+  This article guides you through evaluating your cards and overall deck performance along factors such as combos and tutors, manabase optimisation, mana curve. Is also suggest to understand the average turn at which the deck becomes threatening.</p>
+</li>
+<li>
+<p><a href="https://thephotoman.medium.com/an-end-to-power-level-discussions-in-edh-a484d0b38c4d">James McCormick | An End to Power Level Discussions in EDH</a>
+  The author argues that the concept of power level is subjective and can lead to negative experiences, such as feeling pressure to build powerful decks or feeling excluded from playgroups due to having a lower power level.
+  The author suggests that players should focus on having fun and building decks that are personally meaningful or interesting rather than trying to optimize for power level. The article also discusses ways that players can approach deckbuilding and play in a more inclusive and positive manner, such as communicating clearly with their playgroup and avoiding disruptive strategies.</p>
+</li>
+<li>
+<p><a href="https://blog.cardkingdom.com/roar-a-new-commander-rating-scale/">Card Kingdom Blog | ROAR: A NEW COMMANDER RATING SCALE</a>
+  This article suggests to evaluate the power of your commander deck according to the number of "Resolutions Or Attacks Required" (or ROAR) in order to win the game.
+  A ROAR score between 0-2 would indicate a cEDH deck while a ROAR between 7 and 10 would describe a very casual deck.</p>
+</li>
+</ul>
+<p>You can find additional discussions around power level in the following videos:</p>
+<ul>
+<li><a href="https://youtu.be/tcQFpmybJCg">Tolarian Community College | How To Evaluate Your Commander Deck's Power Level</a></li>
+<li><a href="https://youtu.be/X_B6oTiyDf4">The Commander's Quarters | The Power Level Problem in Commander</a></li>
+</ul>
+<h1 id="edhrank-twitter-bot">EDHRank Twitter bot</h1>
+<p>In April 2022, <a href="https://twitter.com/edhrec">@edhrec</a> tweeted an April Fool's joke by <a href="(https://twitter.com/edhrec/status/1509889916980764680)">announcing</a> a fake Commander calculator.</p>
+<p><img alt="@edhrec's fake Commander calculator" src="assets/edhrec_aprils_fool.jpg" /></p>
+<p>The "tool" returned a Power Level of 7 for any input, regardless of whether it was a real deck list or not.
+Ranking your deck as a 7 is a running joke in the Commander community.</p>
+<p>However, the idea of a Power Level calculator was intriguing, so I decided to build a usable one myself.</p>
+<p>Introducing...</p>
+<p><img alt="Ardenn // Akiri" src="assets/edh_rank_ardenn_akiri.jpg" /></p>
+<p>Instead of ranking decks on a single-dimensional scale like the Commander Power Level Chart, I rank decks according to four different factors:</p>
+<ul>
+<li>
+<p><strong>Power</strong>: This factor is a combination of the Commander's power tier and the power of individual cards in the deck.</p>
+</li>
+<li>
+<p><strong>Speed</strong>: This factor takes into account the average mana value of the deck, the number of mana producers (including mana rocks and mana dorks), and the number of sources of card advantage.</p>
+</li>
+<li>
+<p><strong>Control</strong>: This factor is based on the number of board wipes and targeted answers in the deck.</p>
+</li>
+<li>
+<p><strong>Consistency</strong>: This factor considers the combo density and their power, as well as the number of tutors and sources of card advantage.</p>
+</li>
+</ul>
+<p>Each dimension is ranked between 0 and 5 which gives for the example above:</p>
+<ul>
+<li>Power: 2.5</li>
+<li>Speed: 3</li>
+<li>Control: 2.5</li>
+<li>Consistency: 3</li>
+</ul>
+<p>To validate that my bot is returning (kind of) accurate results I ranked all the <a href="(https://twitter.com/edhrank/status/1572674202221613061)">official pre-constructed decks</a> as well as all the available decks from the <a href="https://twitter.com/edhrank/status/1571039303349714946">Competitive EDH Decklist Database</a>.</p>
+<h1 id="usage">Usage</h1>
+<p>ℹ️ <a href="https://twitter.com/edhrank">@edhrank</a> is <strong>publicly available and free to use</strong>.</p>
+<p>If you want to try it on your own decklists, simply mention <a href="https://twitter.com/edhrank">@edhrank</a> in a tweet containing a supported decklist link.</p>
+<p><strong>💡 Example :</strong></p>
+<pre><code>@edhrank https://www.moxfield.com/decks/{deck_id}
+</code></pre>
+<p>The following deck building websites are supported:</p>
+<ul>
+<li><a href="aetherhub.com">aetherhub.com</a></li>
+<li><a href="archidekt.com">archidekt.com</a></li>
+<li><a href="deckstats.net">deckstats.net</a></li>
+<li><a href="moxfield.com">moxfield.com</a></li>
+<li><a href="mtggoldfish.com">mtggoldfish.com</a></li>
+<li><a href="scryfall.com">scryfall.com</a></li>
+<li><a href="tappedout.net">tappedout.net</a></li>
+<li><a href="tappedout.net">tcgplayer.com</a></li>
+</ul>
+<h1 id="closing-words">Closing Words</h1>
+<p>I hope you will have as much fun as me ranking your decklists and see how they compare to each other.
+Feel free to give me some feedback on <a href="https://twitter.com/lheybergermtg">Twitter</a>, that would be very appreciated.
+No Power Level method is obviously perfect, and I know mine has some issues that I plan to mitigate and fix in the future.</p>
+<p>If you like it or want to be kept up to date, consider supporting me by:</p>
+<ul>
+<li>Following <a href="https://twitter.com/intent/follow?screen_name=edhrank">@edhrank</a></li>
+<li>Following <a href="https://twitter.com/intent/follow?screen_name=lheybergermtg">me</a></li>
+<li>Subscribing to the <a href="./feed.atom">Atom feed</a></li>
+</ul>
+	<footer>
+		<p>
+			<a href="http://mtgmana.rocks/tool_edhrank.html">Permalink</a>
+			<time datetime="2023-01-03">January 03, 2023</time>
+			
+		</p>
+		
+		<p>
+			<a href="archives.html#guide">guide</a> <a href="archives.html#tools">tools</a>
+		</p>
+		
+		
+		<nav>
+			<h1>Previous posts</h1>
+			<ul>
+			
+				<li><a href="tool_cardrenderbot.html">MTG Tools - Card Render Bot</a></li>
+			
+				<li><a href="about.html">About</a></li>
+			
+			</ul>
+		</nav>
+		
+	</footer>
+</article>
+
+		</main>
+		<footer><a href="https://twitter.com/lheybergermtg">Ludovic Heyberger</a></footer>
+	</body>
+</html>
