@@ -8,10 +8,10 @@ article:not(:only-of-type) {
 		> h1 {
 			@include link-color($title-link-color, $title-link-color-hover);
 			margin-bottom: .3em;
-		    font-size: 2.5em;
-		    line-height: 1em;
-		    font-weight: bolder;
-		    letter-spacing: 1px;
+			font-size: 2.5em;
+			line-height: 1em;
+			font-weight: bolder;
+			letter-spacing: 1px;
 		}
 
 		> h2 {
@@ -27,15 +27,28 @@ article:not(:only-of-type) {
 		line-height: 1.5em;
 		margin: 1em 0 0 0;
 		padding: .3em;
-	    background-color: $light-background;
-	    overflow: hidden;
+		background-color: $light-background;
+		overflow: hidden;
+
+
+		@include wide {
+			p:nth-child(1) {
+				float: left;
+				clear: both;
+			}
+
+			p:nth-child(2) {
+				float: right;
+			}
+		}
+		
 
 		p:nth-child(2) a {
-		    font-size: .95em;
-		    background-color: $body-link-color;
-		    color: $body-link-color-contrast;
-		    padding: .1em .4em .1em;
-		    @include border-radius(1px);
+			font-size: .95em;
+			background-color: $body-link-color;
+			color: $body-link-color-contrast;
+			padding: .1em .4em .1em;
+			@include border-radius(1px);
 		}
 	}
 }

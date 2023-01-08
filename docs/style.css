@@ -187,6 +187,15 @@ article:not(:only-of-type) > footer {
   background-color: #F1F0EE;
   overflow: hidden;
 }
+@media only screen and (min-width: 1000px) {
+  article:not(:only-of-type) > footer p:nth-child(1) {
+    float: left;
+    clear: both;
+  }
+  article:not(:only-of-type) > footer p:nth-child(2) {
+    float: right;
+  }
+}
 article:not(:only-of-type) > footer p:nth-child(2) a {
   font-size: 0.95em;
   background-color: #FF6A3D;
