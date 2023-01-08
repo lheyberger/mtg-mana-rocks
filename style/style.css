@@ -181,23 +181,19 @@ article:not(:only-of-type) > header > h2 {
   letter-spacing: 1px;
 }
 article:not(:only-of-type) > footer {
-  margin-top: 1em;
-  padding: 0.5em;
+  line-height: 1.5em;
+  margin: 1em 0 0 0;
+  padding: 0.3em;
   background-color: #F1F0EE;
   overflow: hidden;
-}
-article:not(:only-of-type) > footer p:nth-child(1) {
-  float: left;
-  clear: both;
-}
-article:not(:only-of-type) > footer p:nth-child(2) {
-  float: right;
 }
 article:not(:only-of-type) > footer p:nth-child(2) a {
   font-size: 0.95em;
   background-color: #FF6A3D;
   color: #FCF9F4;
-  padding: 0.2em 0.4em 0.2em;
+  padding: 0.1em 0.4em 0.1em;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
   border-radius: 1px;
 }
 
