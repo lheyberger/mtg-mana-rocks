@@ -3,8 +3,14 @@
     <title>MTG Mana Rocks</title>
     <link href="https://mtgmana.rocks/" rel="self" />
     <id>urn:uuid:0c9d723f-5560-40cc-a4c9-4d30df31e293</id>
-    <updated>2023-01-07T15:36:51Z</updated>
+    <updated>2023-01-08T01:02:37Z</updated>
     <entry>
+        <title>cEDH decks (Sept. 2022)</title>
+        <link href="https://mtgmana.rocks/edhrank_cedh_sept2022.html" />
+        <id>urn:uuid:b08065bf-3532-3d64-91d9-b1976dda0f32</id>
+        <published>2023-01-08T00:00:00Z</published><author><name>Ludovic Heyberger</name></author>
+        <summary>All Competitive EDH Decklist Database decks ranked (Sept 2022)</summary>
+    </entry><entry>
         <title>MTG Tools - EDHRank</title>
         <link href="https://mtgmana.rocks/tool_edhrank.html" />
         <id>urn:uuid:bc98e530-7b68-3b2a-b41b-d4e939d45827</id>
