@@ -15,7 +15,10 @@ _name = "MTG Mana Rocks"
 _baseref = "https://mtgmana.rocks/"
 _uuid = "0c9d723f-5560-40cc-a4c9-4d30df31e293"
 _outputdir = posixpath.join(".", "docs")
-_todeploy = [ "./style/style.css" ]
+_todeploy = {
+	'./style/style.css': '.',
+	'./style/favicon.ico': '.',
+}
 
 _assets_dir = posixpath.join(".", "docs", "assets")
 _posts_dir = posixpath.join(".", "posts")
@@ -82,11 +85,11 @@ def copyfile(src, dst):
 	createdir(os.path.dirname(dst))
 	shutil.copy(src, dst)
 
-def deploy(src, dst):
+def deploy(target_file: str, target_dir: str, outputdir: str):
 	from os.path import isfile, join, abspath
 
-	src = abspath(src)
-	dst = abspath(dst)
+	src = abspath(target_file)
+	dst = abspath(join(outputdir, target_dir))
 
 	if isfile(src):
 		copyfile(src, dst)
@@ -141,9 +144,9 @@ def build(filter_drafts = True):
 	build_atom(global_vars, sorted_list)
 
 	# deploy
-	subprocess.call([ "sass", "./style/sass/style.scss", "./style/style.css" ])
-	for target in _todeploy:
-		deploy(target, _outputdir)
+	subprocess.call([ "sass", "--no-source-map", "./style/sass/style.scss", "./style/style.css" ])
+	for target_file, target_dir in _todeploy.items():
+		deploy(target_file, target_dir, _outputdir)
 
 
 def list_dir(path: str, extensions: List[str]):
