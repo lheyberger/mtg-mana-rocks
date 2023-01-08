@@ -1,14 +1,14 @@
 ---
 title: cEDH decks (Sept. 2022)
-subtitle: All Competitive EDH Decklist Database decks ranked (Sept 2022)
+subtitle: All Competitive EDH Decklist Database decks evaluated (Sept 2022)
 date: 08/01/2023
 author: Ludovic Heyberger
 tags: [ edhrank, campaign, cedh ]
 ---
 
-I used my [@edhrank](https://twitter.com/edhrank) Twitter bot to rank all [Competitive EDH Decklist Database](https://cedh-decklist-database.com/) decks as of [September 2022](https://twitter.com/edhrank/status/1571039303349714946).
+I used my [@edhrank](https://twitter.com/edhrank) Twitter bot to evaluate all [Competitive EDH Decklist Database](https://cedh-decklist-database.com/) decks as of [September 2022](https://twitter.com/edhrank/status/1571039303349714946).
 
-⚠️ The ranking was done with the version `edhrank_0.0.1-alpha.6`.
+⚠️ This campaign was done with the version `edhrank_0.0.1-alpha.6`.
 
 Following Twitter threads can get messy when there are a lot of tweets, so here are the results sorted by color for easier reading.
 
@@ -75,7 +75,7 @@ Following Twitter threads can get messy when there are a lot of tweets, so here 
 # Closing Words
 
 This was an interesting project to work on because cEDH decks are the most optimized versions of decks that you can find.
-This project revealed an interesting flaw in the way I calculated the Control rank, which I _temporarily_ fixed in `edhrank_0.0.1-alpha.7`.
+This project revealed an interesting flaw in the way I calculated the Control value, which I _temporarily_ fixed in `edhrank_0.0.1-alpha.7`.
 
 ℹ️ [@edhrank](https://twitter.com/edhrank) is **publicly available and free to use**.
 If you want to learn how to use it, follow this [guide](./tool_edhrank.html).
