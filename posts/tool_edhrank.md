@@ -117,8 +117,8 @@ No Power Level method is obviously perfect, and I know mine has some issues that
 
 If you like it or want to be kept up to date, consider supporting me by:
 
-- Following [@edhrank](https://twitter.com/intent/follow?screen_name=edhrank)
-- Following [me](https://twitter.com/intent/follow?screen_name=lheybergermtg)
+- Following [@edhrank](https://twitter.com/edhrank)
+- Following [me](https://twitter.com/lheybergermtg)
 - Subscribing to the [Atom feed](./feed.atom)
 
 

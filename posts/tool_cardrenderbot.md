@@ -163,7 +163,7 @@ bro 286
 
 If you like it or want to be kept up to date, consider supporting me by:
 
-- Following [me](https://twitter.com/intent/follow?screen_name=lheybergermtg)
+- Following [me](https://twitter.com/lheybergermtg)
 - Subscribing to the [Atom feed](./feed.atom)
 
 
