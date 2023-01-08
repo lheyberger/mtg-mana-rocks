@@ -3,7 +3,7 @@ title: MTG Tools - EDHRank
 subtitle: A fun and automated way to evaluate your deck's power level
 date: 03/01/2023
 author: Ludovic Heyberger
-tags: [ guide, tools ]
+tags: [ guide, tools, edhrank ]
 banner: assets/banner_edhrank.jpg
 ---
 
