@@ -1,9 +1,9 @@
 ---
 title: cEDH decks (Sept. 2022)
-subtitle: All Competitive EDH Decklist Database decks evaluated (Sept 2022)
+subtitle: All Competitive EDH Decklist Database decks evaluated (Sept. 2022)
 date: 08/01/2023
 author: Ludovic Heyberger
-tags: [ edhrank, campaign, cedh ]
+tags: [ cedh, edhrank, campaign ]
 banner: assets/banner_edhrank_cedh_sept2022.jpg
 ---
 

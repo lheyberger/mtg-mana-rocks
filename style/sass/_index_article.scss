@@ -7,11 +7,11 @@ article:not(:only-of-type) {
 
 		> h1 {
 			@include link-color($title-link-color, $title-link-color-hover);
-			margin-bottom: .3em;
-			font-size: 2.5em;
 			line-height: 1em;
+			font-size: 2.2em;
 			font-weight: bolder;
 			letter-spacing: 1px;
+			margin-bottom: .3em;
 		}
 
 		> h2 {
@@ -41,7 +41,6 @@ article:not(:only-of-type) {
 				float: right;
 			}
 		}
-		
 
 		p:nth-child(2) a {
 			font-size: .95em;
