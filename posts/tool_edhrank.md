@@ -83,7 +83,7 @@ Each dimension is ranked between 0 and 5 which gives for the example above:
 - Consistency: 3
 
 
-To validate that my bot was returning (kind of) accurate results I ranked all the [official pre-constructed decks](https://twitter.com/edhrank/status/1572674202221613061) as well as all the available decks from the [Competitive EDH Decklist Database](edhrank_cedh_sept2022.html) (as of September 2022).
+To validate that my bot was returning (kind of) accurate results I ranked all the [official preconstructed decks](edhrank_preco_sept2022.html) as well as all the available decks from the [Competitive EDH Decklist Database](edhrank_cedh_sept2022.html) (as of September 2022).
 
 
 # Usage

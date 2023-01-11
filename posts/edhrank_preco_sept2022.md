@@ -1,13 +1,13 @@
 ---
 title: Preco EDH decks (Sept. 2022)
-subtitle: Power Level of all official EDH pre-constructed decks since September 2022 evaluated
+subtitle: Power Level of all official EDH preconstructed decks since September 2022 evaluated
 date: 10/01/2023
 author: Ludovic Heyberger
-tags: [ pre-constructed, edhrank, campaign ]
+tags: [ preconstructed, edhrank, campaign ]
 banner: assets/banner_edhrank_preco_sept2022.jpg
 ---
 
-I used my [@edhrank](https://twitter.com/edhrank) Twitter bot to evaluate all [official EDH pre-constructed decks](https://twitter.com/edhrank/status/1572674202221613061) published by WotC until 2022.
+I used my [@edhrank](https://twitter.com/edhrank) Twitter bot to evaluate all [official EDH preconstructed decks](https://twitter.com/edhrank/status/1572674202221613061) released by WotC until 2022.
 
 ⚠️ This campaign was done with the version `edhrank_0.0.1-alpha.6`.
 
@@ -124,8 +124,8 @@ Following Twitter threads can get messy when there are a lot of tweets, so here 
 
 # Closing Words
 
-This was an interesting project to work on because pre-constructed decks are often considered as the baseline power level for Commander decks.
-Usually, pre-constructed decks are compensating their lack of power with a higher degree of synergy.
+This was an interesting project to work on because preconstructed decks are often considered as the baseline power level for Commander decks.
+Usually, preconstructed decks are compensating their lack of power with a higher degree of synergy.
 This is a criteria which I'm still struggling to assess in the current version of the bot (`edhrank_0.0.1-alpha.7` as of writing).
 
 ℹ️ [@edhrank](https://twitter.com/edhrank) is **publicly available and free to use**.
