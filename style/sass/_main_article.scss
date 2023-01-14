@@ -69,6 +69,31 @@ article:only-of-type {
 		}
 	}
 
+	table {
+		font-size: 1em;
+		text-align: center;
+		width: 100%;
+		border-collapse: collapse;
+		border-spacing: 0;
+
+		thead th {
+			font-size: 1.05em;
+			font-weight: bold;
+			background: $light-background;
+			padding: .5em;
+		}
+
+		tbody {
+			tr {
+				border-bottom: 1px solid $light-background;
+			}
+			td {
+				background: $background-color;
+				padding: .5em;
+			}
+		}
+	}
+
 	:not(pre) code, pre {
 		font-family: $code-font;
 		font-size: 85%;
@@ -100,3 +125,32 @@ article:only-of-type {
 		}
 	}
 }
+
+
+// <table>
+// 	<thead>
+// 		<tr>
+// 			<th>Commander</th>
+// 			<th>Power</th>
+// 			<th>Speed</th>
+// 			<th>Control</th>
+// 			<th>Consistency</th>
+// 		</tr>
+// 	</thead>
+// 	<tbody>
+// 		<tr>
+// 			<td>Abaddon the Despoiler</td>
+// 			<td>🟩🟩🟨⬜⬜</td>
+// 			<td>🟩⬜⬜⬜⬜</td>
+// 			<td>🟩🟨⬜⬜⬜</td>
+// 			<td>⬜⬜⬜⬜⬜</td>
+// 		</tr>
+// 		<tr>
+// 			<td>Anhelo, the Painter</td>
+// 			<td>🟩🟩⬜⬜⬜</td>
+// 			<td>🟩🟨⬜⬜⬜</td>
+// 			<td>🟨⬜⬜⬜⬜</td>
+// 			<td>⬜⬜⬜⬜⬜</td>
+// 		</tr>
+// 	</tbody>
+// </table>

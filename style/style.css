@@ -269,6 +269,26 @@ article:only-of-type > ol {
 article:only-of-type > ol li {
   line-height: 1.5em;
 }
+article:only-of-type table {
+  font-size: 1em;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+article:only-of-type table thead th {
+  font-size: 1.05em;
+  font-weight: bold;
+  background: #F1F0EE;
+  padding: 0.5em;
+}
+article:only-of-type table tbody tr {
+  border-bottom: 1px solid #F1F0EE;
+}
+article:only-of-type table tbody td {
+  background: white;
+  padding: 0.5em;
+}
 article:only-of-type :not(pre) code, article:only-of-type pre {
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
   font-size: 85%;
