@@ -16,32 +16,30 @@ If you want to learn how to use it, follow this [guide](./tool_edhrank.html).
 
 This year, 24 preconstructed decks were published! Here are the results, sorted alphabetically:
 
-| Commander | Power | Speed | Control | Consistency |
-|:---|---|---|---|---|
-| Abaddon the Despoiler ([here](https://twitter.com/edhrank/status/1612943929682305024)) | 🟩🟩🟨⬜⬜ | 🟩⬜⬜⬜⬜ | 🟩🟨⬜⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Anhelo, the Painter ([here](https://twitter.com/edhrank/status/1612943951937380352)) | 🟩🟩⬜⬜⬜ | 🟩🟨⬜⬜⬜ | 🟨⬜⬜⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Atarka, World Render ([here](https://twitter.com/edhrank/status/1612943974674710529)) | 🟩⬜⬜⬜⬜ | 🟩🟩🟩⬜⬜ | 🟩🟨⬜⬜⬜ | 🟨⬜⬜⬜⬜ |
-| Captain N'ghathrod ([here](https://twitter.com/edhrank/status/1612943998271750146)) | 🟩🟨⬜⬜⬜ | 🟩🟩⬜⬜⬜ | ⬜⬜⬜⬜⬜ | 🟩⬜⬜⬜⬜ |
-| Chishiro, the Shattered Blade ([here](https://twitter.com/edhrank/status/1612944021135015936)) | 🟩🟨⬜⬜⬜ | 🟩🟩⬜⬜⬜ | 🟩🟨⬜⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Dihada, Binder of Wills ([here](https://twitter.com/edhrank/status/1612944043415044097)) | ⬜⬜⬜⬜⬜ | 🟩🟨⬜⬜⬜ | 🟩🟩⬜⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Emmara, Soul of the Accord ([here](https://twitter.com/edhrank/status/1612944065691095044)) | 🟩🟨⬜⬜⬜ | 🟩🟩🟩⬜⬜ | 🟩🟨⬜⬜⬜ | 🟨⬜⬜⬜⬜ |
-| Faldorn, Dread Wolf Herald ([here](https://twitter.com/edhrank/status/1612944088059314177)) | 🟩🟨⬜⬜⬜ | 🟩🟩⬜⬜⬜ | ⬜⬜⬜⬜⬜ | 🟨⬜⬜⬜⬜ |
-| Firkraag, Cunning Instigator ([here](https://twitter.com/edhrank/status/1612944110280663040)) | 🟩🟨⬜⬜⬜ | 🟩🟩⬜⬜⬜ | 🟩🟩⬜⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Gisa and Geralf ([here](https://twitter.com/edhrank/status/1612944133328363521)) | 🟩🟨⬜⬜⬜ | 🟩🟩🟨⬜⬜ | 🟨⬜⬜⬜⬜ | 🟨⬜⬜⬜⬜ |
-| Henzie "Toolbox" Torre ([here](https://twitter.com/edhrank/status/1612944155587629059)) | 🟩🟨⬜⬜⬜ | 🟩🟩🟨⬜⬜ | 🟩🟨⬜⬜⬜ | 🟨⬜⬜⬜⬜ |
-| Inquisitor Greyfax ([here](https://twitter.com/edhrank/status/1612944177892925443)) | ⬜⬜⬜⬜⬜ | 🟩🟩⬜⬜⬜ | 🟩🟩🟨⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Isperia, Supreme Judge ([here](https://twitter.com/edhrank/status/1612944201477459968)) | 🟩🟨⬜⬜⬜ | 🟩🟩⬜⬜⬜ | 🟩🟩⬜⬜⬜ | 🟨⬜⬜⬜⬜ |
-| Jared Carthalion ([here](https://twitter.com/edhrank/status/1612944224701267969)) | ⬜⬜⬜⬜⬜ | 🟩🟩⬜⬜⬜ | 🟩🟩🟨⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Kamiz, Obscura Oculus ([here](https://twitter.com/edhrank/status/1612944247933603843)) | 🟩🟩⬜⬜⬜ | 🟩🟩🟨⬜⬜ | 🟩🟨⬜⬜⬜ | 🟨⬜⬜⬜⬜ |
-| Kardur, Doomscourge ([here](https://twitter.com/edhrank/status/1612944271048310784)) | 🟩⬜⬜⬜⬜ | 🟩🟩⬜⬜⬜ | 🟩🟩⬜⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Kitt Kanto, Mayhem Diva ([here](https://twitter.com/edhrank/status/1612944294549114881)) | 🟩🟨⬜⬜⬜ | 🟩🟩🟨⬜⬜ | 🟩🟨⬜⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Kotori, Pilot Prodigy ([here](https://twitter.com/edhrank/status/1612944316866985984)) | 🟩⬜⬜⬜⬜ | 🟩🟩🟨⬜⬜ | 🟩⬜⬜⬜⬜ | 🟨⬜⬜⬜⬜ |
-| Mishra, Eminent One ([here](https://twitter.com/edhrank/status/1612944339189043204)) | ⬜⬜⬜⬜⬜ | 🟩🟩🟨⬜⬜ | 🟩🟨⬜⬜⬜ | 🟨⬜⬜⬜⬜ |
-| Nalia de'Arnise ([here](https://twitter.com/edhrank/status/1612944361834090498)) | 🟩🟨⬜⬜⬜ | 🟩🟩⬜⬜⬜ | 🟩⬜⬜⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Perrie, the Pulverizer ([here](https://twitter.com/edhrank/status/1612944384080609281)) | 🟩🟨⬜⬜⬜ | 🟩🟩🟨⬜⬜ | 🟩🟨⬜⬜⬜ | 🟨⬜⬜⬜⬜ |
-| Szarekh, the Silent King ([here](https://twitter.com/edhrank/status/1612944406381748224)) | ⬜⬜⬜⬜⬜ | 🟩🟩⬜⬜⬜ | 🟩🟨⬜⬜⬜ | ⬜⬜⬜⬜⬜ |
-| The Swarmlord ([here](https://twitter.com/edhrank/status/1612944431329460231)) | ⬜⬜⬜⬜⬜ | 🟩🟩⬜⬜⬜ | 🟨⬜⬜⬜⬜ | ⬜⬜⬜⬜⬜ |
-| Urza, Chief Artificer ([here](https://twitter.com/edhrank/status/1612944454125584385)) | ⬜⬜⬜⬜⬜ | 🟩🟩🟨⬜⬜ | 🟩🟩🟨⬜⬜ | 🟨⬜⬜⬜⬜ |
+- Abaddon the Despoiler ([here](https://twitter.com/edhrank/status/1612943929682305024))
+- Anhelo, the Painter ([here](https://twitter.com/edhrank/status/1612943951937380352))
+- Atarka, World Render ([here](https://twitter.com/edhrank/status/1612943974674710529))
+- Captain N'ghathrod ([here](https://twitter.com/edhrank/status/1612943998271750146))
+- Chishiro, the Shattered Blade ([here](https://twitter.com/edhrank/status/1612944021135015936))
+- Dihada, Binder of Wills ([here](https://twitter.com/edhrank/status/1612944043415044097))
+- Emmara, Soul of the Accord ([here](https://twitter.com/edhrank/status/1612944065691095044))
+- Faldorn, Dread Wolf Herald ([here](https://twitter.com/edhrank/status/1612944088059314177))
+- Firkraag, Cunning Instigator ([here](https://twitter.com/edhrank/status/1612944110280663040))
+- Gisa and Geralf ([here](https://twitter.com/edhrank/status/1612944133328363521))
+- Henzie "Toolbox" Torre ([here](https://twitter.com/edhrank/status/1612944155587629059))
+- Inquisitor Greyfax ([here](https://twitter.com/edhrank/status/1612944177892925443))
+- Isperia, Supreme Judge ([here](https://twitter.com/edhrank/status/1612944201477459968))
+- Jared Carthalion ([here](https://twitter.com/edhrank/status/1612944224701267969))
+- Kamiz, Obscura Oculus ([here](https://twitter.com/edhrank/status/1612944247933603843))
+- Kardur, Doomscourge ([here](https://twitter.com/edhrank/status/1612944271048310784))
+- Kitt Kanto, Mayhem Diva ([here](https://twitter.com/edhrank/status/1612944294549114881))
+- Kotori, Pilot Prodigy ([here](https://twitter.com/edhrank/status/1612944316866985984))
+- Mishra, Eminent One ([here](https://twitter.com/edhrank/status/1612944339189043204))
+- Nalia de'Arnise ([here](https://twitter.com/edhrank/status/1612944361834090498))
+- Perrie, the Pulverizer ([here](https://twitter.com/edhrank/status/1612944384080609281))
+- Szarekh, the Silent King ([here](https://twitter.com/edhrank/status/1612944406381748224))
+- The Swarmlord ([here](https://twitter.com/edhrank/status/1612944431329460231))
+- Urza, Chief Artificer ([here](https://twitter.com/edhrank/status/1612944454125584385))
 
 
 # A few observations
