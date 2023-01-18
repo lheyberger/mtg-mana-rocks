@@ -8,7 +8,7 @@ tags: [ ]
 
 Hello everybody! Let me introduce myself.
 
-My name is Ludovic Heyberger, and I've been playing [Magic The Gathering][Magic The Gathering] since 1995.
+My name is Ludovic Heyberger, and I've been playing [Magic: The Gathering][Magic The Gathering] since 1995.
 
 I discovered the game with the [4th Edition][4th Edition] and [Ice Age][Ice Age] and I've been playing until [Tempest][Tempest].
 I started playing again 5 years later with [Onslaught][Onslaught], [Legion][Legion] and [Sourge][Sourge], and I never stopped since then.

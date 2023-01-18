@@ -3,8 +3,14 @@
     <title>MTG Mana Rocks</title>
     <link href="https://mtgmana.rocks/" rel="self" />
     <id>urn:uuid:0c9d723f-5560-40cc-a4c9-4d30df31e293</id>
-    <updated>2023-01-11T22:57:39Z</updated>
+    <updated>2023-01-19T00:04:06Z</updated>
     <entry>
+        <title>How to render your favorite preview cards — Phyrexia, All Will Be One</title>
+        <link href="https://mtgmana.rocks/mtg_one.html" />
+        <id>urn:uuid:7cdd55cd-47a0-3a12-8ce7-b56146322da6</id>
+        <published>2023-01-19T00:00:00Z</published><author><name>Ludovic Heyberger</name></author>
+        <summary>Card Render Bot now supports ONE and ONC set extensions</summary>
+    </entry><entry>
         <title>2022 preconstructed decks Power Level</title>
         <link href="https://mtgmana.rocks/edhrank_preco_2022.html" />
         <id>urn:uuid:12f9bd8a-5319-3cc2-878a-577b7f43461e</id>
