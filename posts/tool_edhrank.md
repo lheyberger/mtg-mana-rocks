@@ -50,7 +50,7 @@ You can find additional discussions around power level in the following videos:
 
 # EDHRank Twitter bot
 
-In April 2022, [@edhrec](https://twitter.com/edhrec) tweeted an April Fool's joke by [announcing]((https://twitter.com/edhrec/status/1509889916980764680)) a fake Commander calculator.
+In April 2022, [@edhrec](https://twitter.com/edhrec) tweeted an April Fool's joke by [announcing](https://twitter.com/edhrec/status/1509889916980764680) a fake Commander calculator.
 
 ![@edhrec's fake Commander calculator](assets/edhrec_aprils_fool.jpg)
 
@@ -99,14 +99,14 @@ If you want to try it on your own decklists, simply mention [@edhrank](https://t
 
 The following deck building websites are supported:
 
-- [aetherhub.com](aetherhub.com)
-- [archidekt.com](archidekt.com)
-- [deckstats.net](deckstats.net)
-- [moxfield.com](moxfield.com)
-- [mtggoldfish.com](mtggoldfish.com)
-- [scryfall.com](scryfall.com)
-- [tappedout.net](tappedout.net)
-- [tcgplayer.com](tappedout.net)
+- [aetherhub.com](https://aetherhub.com)
+- [archidekt.com](https://archidekt.com)
+- [deckstats.net](https://deckstats.net)
+- [moxfield.com](https://moxfield.com)
+- [mtggoldfish.com](https://www.mtggoldfish.com)
+- [scryfall.com](https://scryfall.com)
+- [tappedout.net](https://tappedout.net)
+- [tcgplayer.com](https://tcgplayer.com)
 
 
 # Closing Words

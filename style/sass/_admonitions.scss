@@ -1,0 +1,10 @@
+
+.admonition {
+    margin: 1em 0;
+    padding: .75em;
+    border-left: 4px solid $admonition-border-color;
+
+    .admonition-title {
+        display: none;
+    }
+}

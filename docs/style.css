@@ -46,6 +46,15 @@ img, embed, object, video {
   height: inherit;
 }
 
+.admonition {
+  margin: 1em 0;
+  padding: 0.75em;
+  border-left: 4px solid rgb(26, 34, 56);
+}
+.admonition .admonition-title {
+  display: none;
+}
+
 a {
   text-decoration: none;
   outline: none;

@@ -20,7 +20,7 @@ _todeploy = {
 	'./style/favicon.ico': '.',
 }
 
-_assets_dir = posixpath.join(".", "docs", "assets")
+_assets_dir = posixpath.join(_outputdir, "assets")
 _posts_dir = posixpath.join(".", "posts")
 
 def createdir(dirname):
@@ -66,7 +66,7 @@ def build_post(global_vars, post, previous_posts, is_first = False):
 		"edited": post.get("edited"),
 		"banner": post.get("banner"),
 		"article": post["article"],
-		"permalink": posixpath.join(_baseref, post["tag"] + ".html"),
+		"permalink": post["permalink"],
 		"tags": post.get("tags"),
 		"previous_posts": previous_posts,
 	}
@@ -111,7 +111,7 @@ def build(filter_drafts = True):
 		with open(os.path.join("posts", entry), encoding="utf-8") as f:
 			y, md = sum(re.findall("---(.*?)---(.*)", f.read(), re.M | re.DOTALL), ())
 			post.update(yaml.safe_load(y))
-			post["article"] = markdown.markdown(md, extensions=['tables', 'toc', 'fenced_code'])
+			post["article"] = markdown.markdown(md, extensions=['tables', 'toc', 'fenced_code', 'admonition'])
 
 		if filter_drafts and 'draft' in post.get('tags', []):
 			continue
@@ -123,6 +123,7 @@ def build(filter_drafts = True):
 		post["tag"] = tag
 		post["uuid"] = uuid.uuid3(uuid.NAMESPACE_DNS, tag)
 		post["url"] = posixpath.join(_baseref, tag + ".html")
+		post["permalink"] = posixpath.join(_baseref, post["tag"] + ".html")
 
 		posts[tag] = post
 		tags.update(post.get("tags"))
