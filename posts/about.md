@@ -18,11 +18,15 @@ I discovered [Commander][Commander] in 2015, became immediately addicted and nev
 I'm a nerd at heart and I spend most of my free time building [Commander decks][Commander decks], or MTG related [tools][tools].
 
 This website is my humble attempt at contributing to this wonderful format.
-If you like it or want to be kept up to date, consider supporting me by:
 
-- Following [@edhrank](https://twitter.com/edhrank)
-- Following [me](https://twitter.com/lheybergermtg)
-- Subscribing to the [Atom feed](./feed.atom)
+
+# Support me ❤️
+
+If you want to support me or be kept up to date:
+
+- Follow [@edhrank](https://twitter.com/edhrank) on Twitter
+- Follow [me](https://twitter.com/lheybergermtg) on Twitter
+- Subscribe to the [Atom feed](./feed.atom)
 
 
 [Commander decks]:https://www.moxfield.com/users/lheyberger

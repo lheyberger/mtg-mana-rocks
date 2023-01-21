@@ -131,8 +131,11 @@ This is a criteria which I'm still struggling to assess in the current version o
 ℹ️ [@edhrank](https://twitter.com/edhrank) is **publicly available and free to use**.
 If you want to learn how to use it, follow this [guide](./tool_edhrank.html).
 
-If you liked this article or want to stay up to date, consider supporting me by:
 
-- Following [@edhrank](https://twitter.com/edhrank)
-- Following [me](https://twitter.com/lheybergermtg)
-- Subscribing to the [Atom feed](./feed.atom)
+# Support me ❤️
+
+If you want to support me or be kept up to date:
+
+- Follow [@edhrank](https://twitter.com/edhrank) on Twitter
+- Follow [me](https://twitter.com/lheybergermtg) on Twitter
+- Subscribe to the [Atom feed](./feed.atom)

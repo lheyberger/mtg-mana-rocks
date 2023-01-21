@@ -115,11 +115,14 @@ I hope you will have as much fun as me ranking your decklists and see how they c
 Feel free to give me some feedback on [Twitter](https://twitter.com/lheybergermtg), that would be very appreciated.
 No Power Level method is obviously perfect, and I know mine has some issues that I plan to mitigate and fix in the future.
 
-If you like it or want to be kept up to date, consider supporting me by:
 
-- Following [@edhrank](https://twitter.com/edhrank)
-- Following [me](https://twitter.com/lheybergermtg)
-- Subscribing to the [Atom feed](./feed.atom)
+# Support me ❤️
+
+If you want to support me or be kept up to date:
+
+- Follow [@edhrank](https://twitter.com/edhrank) on Twitter
+- Follow [me](https://twitter.com/lheybergermtg) on Twitter
+- Subscribe to the [Atom feed](./feed.atom)
 
 
 [Commander decks]:https://www.moxfield.com/users/lheyberger

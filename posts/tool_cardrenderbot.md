@@ -159,12 +159,13 @@ bro 286
 ![The Brother's War Lands](assets/bro_lands.jpg)
 
 
-# Closing Words
+# Support me ❤️
 
-If you like it or want to be kept up to date, consider supporting me by:
+If you want to support me or be kept up to date:
 
-- Following [me](https://twitter.com/lheybergermtg)
-- Subscribing to the [Atom feed](./feed.atom)
+- Follow [@edhrank](https://twitter.com/edhrank) on Twitter
+- Follow [me](https://twitter.com/lheybergermtg) on Twitter
+- Subscribe to the [Atom feed](./feed.atom)
 
 
 [Messenger]:https://m.me/108575720841085
