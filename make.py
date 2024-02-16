@@ -99,7 +99,7 @@ def deploy(target_file: str, target_dir: str, outputdir: str):
 		for f in os.listdir(src):
 			copyfile(join(src, f), join(dst, f))
 
-def build(filter_drafts = True):
+def build(build_drafts = False):
 	posts = {}
 	tags = Counter()
 
@@ -113,7 +113,7 @@ def build(filter_drafts = True):
 			post.update(yaml.safe_load(y))
 			post["article"] = markdown.markdown(md, extensions=['tables', 'toc', 'fenced_code', 'admonition'])
 
-		if filter_drafts and 'draft' in post.get('tags', []):
+		if not build_drafts and 'draft' in post.get('tags', []):
 			continue
 
 		post["date"] = datetime.datetime.strptime(post["date"], "%d/%m/%Y").date()
@@ -234,8 +234,10 @@ def make_check():
 	command_check(_assets_dir, _posts_dir)
 
 @make.command(name='build')
-def make_build():
-	print('🏗️ ', 'make_build')
+@click.option("--drafts", is_flag=True, show_default=True, default=False, help='Build with drafts.')
+def make_build(drafts):
+	print('🏗️ ', 'make_build', f'--drafts={drafts}')
+	build(drafts)
 
 @make.command(name="optimize")
 @click.option('-w', '--max-width', type=int, default=1000)
@@ -246,4 +248,4 @@ def make_optimize(max_width: int, compression_level: int, dry_run: bool):
 	command_optimize(_assets_dir, max_width, compression_level, dry_run)
 
 if __name__ == '__main__':
-	build(True)
+	make()

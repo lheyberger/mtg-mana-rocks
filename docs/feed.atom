@@ -3,8 +3,14 @@
     <title>MTG Mana Rocks</title>
     <link href="https://mtgmana.rocks/" rel="self" />
     <id>urn:uuid:0c9d723f-5560-40cc-a4c9-4d30df31e293</id>
-    <updated>2023-09-05T00:28:38Z</updated>
+    <updated>2024-02-16T22:51:46Z</updated>
     <entry>
+        <title>MTG Tools - Card Render Bot - Update</title>
+        <link href="https://mtgmana.rocks/tool_cardrenderbot_update.html" />
+        <id>urn:uuid:07fa4193-e478-3752-b7f5-89b30840d894</id>
+        <published>2024-02-15T00:00:00Z</published><author><name>Ludovic Heyberger</name></author>
+        <summary>Bidding farewell to the Messenger Card Render Bot - Embracing the Telegram Experience</summary>
+    </entry><entry>
         <title>How to render your favorite preview cards — Phyrexia, All Will Be One</title>
         <link href="https://mtgmana.rocks/mtg_one.html" />
         <id>urn:uuid:7cdd55cd-47a0-3a12-8ce7-b56146322da6</id>
