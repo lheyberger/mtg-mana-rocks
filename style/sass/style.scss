@@ -1,16 +1,16 @@
 
-@import "reset";
-@import "responsive";
-@import "fonts";
-@import "colors";
-@import "mixins";
-@import "admonitions";
+@use "reset";
+@use "responsive";
+@use "fonts";
+@use "colors";
+@use "mixins";
+@use "admonitions";
 
-@import "common";
-@import "header";
-@import "body";
-@import "footer";
+@use "common";
+@use "header";
+@use "body";
+@use "footer";
 
-@import "index_article";
-@import "main_article";
-@import "archives";
+@use "index_article";
+@use "main_article";
+@use "archives";

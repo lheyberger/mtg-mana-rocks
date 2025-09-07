@@ -1,4 +1,8 @@
 
+@use 'colors' as *;
+@use 'mixins' as *;
+@use 'responsive' as *;
+
 article:not(:only-of-type) {
 
 	margin: 3em 0;

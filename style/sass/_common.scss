@@ -1,4 +1,8 @@
 
+@use 'colors' as *;
+@use 'fonts' as *;
+@use 'mixins' as *;
+
 @include link-style();
 @include link-color($body-link-color, $body-link-color-hover);
 
