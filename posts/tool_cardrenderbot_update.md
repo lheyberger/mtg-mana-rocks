@@ -35,7 +35,7 @@ I tried (to some extent) to provide appropriate documents to pass this process, 
 
 If you want to support me or be kept up to date:
 
-- Follow [@edhrank](https://twitter.com/edhrank) on Twitter
+- Follow [me](https://bsky.app/profile/lheyberger.bsky.social) on Bluesky
 - Follow [me](https://twitter.com/lheybergermtg) on Twitter
 - Subscribe to the [Atom feed](./feed.atom)
 

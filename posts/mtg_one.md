@@ -75,6 +75,7 @@ one 361
 
 If you want to support me or be kept up to date:
 
+- Follow [me](https://bsky.app/profile/lheyberger.bsky.social) on Bluesky
 - Follow [me](https://twitter.com/lheybergermtg) on Twitter
 - Subscribe to the [Atom feed](./feed.atom)
 
